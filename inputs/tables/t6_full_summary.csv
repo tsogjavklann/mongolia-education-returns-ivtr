@@ -1,0 +1,11 @@
+Model,beta,return_pct,N
+OLS (simple),0.0736,7.6,49357
+OLS (aimag+wave FE),0.0661,6.8,49357
+Panel FE (pseudo-panel),0.1627,17.7,692
+Panel RE (pseudo-panel),0.2028,22.5,692
+2SLS IV (birth_aimag),0.1133,12,12020
+2SLS IV (log dist_UB),0.2055,22.8,7746
+2SLS IV (overidentified),0.1043,11,7746
+IVTR regime 1 (educ<=13),0.0533,5.5,6144
+IVTR regime 2 (educ>13),0.165,17.9,5876
+Heckman corrected,0.0670686672000838,6.9,49811

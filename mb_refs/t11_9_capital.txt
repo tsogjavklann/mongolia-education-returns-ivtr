@@ -1,0 +1,2626 @@
+LIVING WITH VOLATILITIES:
+CAPITAL FLOWS AND IMPLICATIONS FOR 
+CENTRAL BANK POLICIES IN MONGOLIA
+MUNKHCHIMEG Sukhee, Economist, Research and Statistics Department49
+TSENGUUNJAV Byambasuren, Economist, Research and Statistics Department
+November 2015
+49 The authors are grateful to the Bank of Mongolia for providing an opportunity to work 
+on this collaborated research project, “Living with Volatilities: Capital Flows and 
+Policy Implications for South East Asian Central Banks (SEACEN)” organized from 
+the SEACEN Centre. We would like to thank project leader, Chris Becker, participating 
+economists of the workshop and seminar on this topic at the SEACEN Centre, 
+Altantsetseg Batchuluun, associate professor of economics at the National University of 
+Mongolia, and Gan-Ochir Doojav, PhD Candidate at the Australian National University, 
+for their fruitful comments and useful discussions.
+---PAGE---
+316
+Монголбанк   Судалгааны ажил “Товхимол-11”
+Disclaimer: The views expressed in this Working Paper are 
+those of the author(s) and do not necessarily represent those of 
+SEACEN or the Bank of Mongolia.
+ABSTRACT
+This paper examines the capital flows in Mongolia and its macroeconomic 
+policy implications, especially for the monetary policy during substantial 
+fluctuations of the capital flows. We also determine main drivers of the 
+capital flows using cointegration analysis in case of Mongolia. Our findings 
+indicate that Mongolia implemented relatively counter cyclical monetary 
+and macroprudential policies during the both periods of capital inflow 
+surges, sudden stop and reversal. However, procyclical fiscal policy could 
+not amortize volatilities of the capital flows, contribute to the sustainable 
+economic growth, and encourage financial stability. The analysis of the 
+determinants of the capital flows in Mongolia suggests that FDI inflows are 
+the most important in Mongolia and the key determinants of the FDI are 
+commodity prices (copper, coal and gold) and home country risk indicators 
+(government external debt). Therefore, we recommend that comprehensive 
+macroeconomic policies, countercyclical fiscal policy, domestic financial 
+markets development, non-debt government external financing, and 
+economic diversification are essential to smooth the negative effects of 
+capital flow volatilities.
+Keywords: capital flows, volatility, driving factors, 
+macroeconomic policy
+JEL Classification: E58, F21, O24
+---PAGE---
+317
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+I. INTRODuCTION
+Mongolia is a small open economy which is transited to a market economy 
+in early 1990s. Over the last two decades, Mongolia privatized most of 
+its public enterprises and assets, created a two-tier banking system, and 
+liberalized its foreign trade and capital flows, opened the door to both 
+residents and non-residents to make private investment and operate in FX 
+market by creating basic regulations.
+Although the residents are still limited to invest abroad due to their low level 
+of capital accumulation, substantial growth of the non-residents investment 
+inflows indicate deeper integration of Mongolia with the international 
+markets. In Mongolia, the economic growth skyrocketed by reaching an all-
+time high of 17.3 percent, which was one of the highest across the region of 
+the South-East Asia in 2011 due to a FDI inflow surge ensued from a mining 
+boom after the global financial crisis of 2008/09.
+However, the country has been facing a number of challenges such as 
+unsustainable economic growth, high fiscal deficit and external imbalance, 
+inflation and exchange rate pressures, and financial instability as a result 
+of the recent capital inflows volatility. Therefore, Mongolia is currently 
+paying more attention to implement appropriate macroeconomic policies 
+that will contribute to sustainable growth and sound economic and financial 
+developments while mitigating macroeconomic risks related to the capital 
+volatility.
+Thus, this paper aims to examine nature and characteristics of the recent 
+capital flows in Mongolia and driving forces behind it. We mostly focus 
+on the FDI flows because it is the most significant and persistent flows in 
+Mongolia, and creates the largest volatility. We also review recent policy 
+implications of the capital flows volatility in Mongolia. Finally, we provide 
+some policy recommendations how to manage the volatile capital flows and 
+to mitigate adverse effects induced from the volatilities.
+The paper is structured as follows. Section 2 briefly discusses the capital 
+flows by describing its compositions, volatilities, openness and determinants. 
+Section 3 reviews macroeconomic policy responses to the recent capital 
+flows volatility and its policy challenges in Mongolia. Then, the section 
+4 concludes and discusses some policy recommendations for Mongolia 
+regarding the capital flows management.
+---PAGE---
+318
+Монголбанк   Судалгааны ажил “Товхимол-11”
+II. NATuRE  AND CHARACTERISTICS  OF THE CAPITAL 
+ FLOWS  IN MONGOLIA
+2.1. Recent Trends and Major Components
+The gross capital flows 50 of Mongolia’s balance of payments (BOP) were 
+generally diversified with both non-resident inflows and resident outflows prior 
+to the mining boom, which started in 2010. After transition to a market economy 
+in early 1990s, Mongolia privatized most of its state assets, but residents have 
+not accumulated enough capitals to invest abroad in large amounts. Therefore, 
+the resident outflows in Mongolia have been relatively small until today.
+51
+Figure 1. Mongolia: Capital Flows52
+percent of GDP
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+2 
+ 
+2 NATuRE AND CHARACTER ISTICS OF THE CAPITAL FLOWS IN 
+MONGOLIA 
+2.1 Recent Trends and Major Components 
+The gross capital flows1 of Mongolia’s balance of payments (BOP) were generally diversified 
+with both non-resident inflows and resident outflows prior to the mining boom, which started 
+in 2010. After transition to a market economy in early 1990s, Mongolia privatized most of its 
+state assets, but residents have not accumulated enough capitals to invest  abroad in large 
+amounts. Therefore, the resident outflows in Mongolia have been relatively small until today. 
+ 
+Figure 1 
+Mongolia: Capital Flows2 
+percent of GDP 
+ 
+ 
+*    The flows through the currency and deposit account (other than BoM liabilities) and 
+BoM liabilities are excluded from the BMM. 
+Source:    IMF-ICS database; Bank of Mongolia (BoM) 
+ 
+In contrast, the public and private sector loans and foreign direct investment ( FDI) into the 
+domestic economy have been more persistent and large . Thus, the capital flows of Mongolia 
+had been mainly driven by the FDI and bank and money market inflows (BMM)3 prior to the 
+                                                 
+1 International standards specify that the ‘financial’ account is the main counterpart to the current account. However, since 
+we are mainly discussing capital flows we prefer to use the term capital account to avoid confusion. The actual item in the 
+official statistics that is called the capital account is usually very small and adds little to the analysis at hand. 
+2 Here, FDI is foreign direct investment, PFE is portfolio equity investment, PFD is portfolio debt investment, BMM is bank 
+and money market flows, RES is the change in official foreign exchange reserves. 
+3 In the BOP these flows appear under the category of ‘other investment ’. As bank loans and money market transactions are 
+the main components of this category, we refer to these flows as ‘bank and money market’ flows to lend them a more 
+meaningful label. 
+-20
+-10
+0
+10
+20
+-20
+-10
+0
+10
+20
+Assets% %
+-20
+0
+20
+40
+60
+80
+-20
+0
+20
+40
+60
+80
+2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 H1
+2015
+Liabilities
+FDI BMM* BoM liabilities PFD PFE RES
+% %
+* The flows through the currency and deposit account (other than BoM liabilities) and BoM 
+liabilities are excluded from the BMM.
+Source: IMF-ICS database; Bank of Mongolia (BoM)
+50 International standards specify that the ‘financial’ account is the main counterpart to the 
+current account. However, since we are mainly discussing capital flows we prefer to use 
+the term capital account to avoid confusion. The actual item in the official statistics that is 
+called the capital account is usually very small and adds little to the analysis at hand.
+51 Here, FDI is foreign direct investment, PFE is portfolio equity investment, PFD is 
+portfolio debt investment, BMM is bank and money market flows, RES is the change in 
+official foreign exchange reserves.
+---PAGE---
+319
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+In contrast, the public and private sector loans and foreign direct investment 
+(FDI) into the domestic economy have been more persistent and large. Thus, 
+the capital flows of Mongolia had been mainly driven by the FDI and bank 
+and money market inflows (BMM)
+52 prior to the global financial crisis of 
+2008/09, but size of the flows was relatively small compared to the recent 
+flows.
+During the global financial crisis of 2008/09, Mongolia experienced 
+an excessive foreign exchange (FX) shortage due to significant decline 
+in exports and the FDI inflows, which resulted a large exchange rate 
+depreciation, substantial drop of international reserves, and economic and 
+financial vulnerabilities. Therefore, Mongolia implemented 18-month SBA 
+program of the International Monetary Fund (IMF) which was amounted 
+US$229.2 million to stabilize the economy in 2009.
+Due to this economic difficulty, the Government of Mongolia (GoM) 
+highlighted the importance of having long-term sustainable sources of 
+FX and paid more attention to attract foreign investment into the domestic 
+economy after the crisis. During that period, a number of untapped and 
+already explored mineral deposits were ready to be exploited in Mongolia. 
+The GoM rushed to start exploiting those mines, considering them as a 
+sustainable source of FX through both exports and FDI inflows. Then, the 
+GoM accepted a number of exploiting licenses on mining sector from the 
+owners of foreign-invested companies until 2012 when the license issuance 
+was temporarily stopped. We call the period between 2010 and 2012 as a 
+“mining boom” in Mongolia.
+FDI in the mining sector significantly increased in years of 2010-2012 and 
+became the biggest component of the capital inflows in Mongolia during 
+the mining boom. It resides about 80 percent of total FDI inflows during 
+the boom period while 70 percent between 2009 and 2014. The boom was 
+mainly driven by a largest copper and gold project, Oyu Tolgoi (OT)
+53 of 
+which the total foreign investment was about US$6 billion (60 percent of 
+52 In the BOP these flows appear under the category of ‘other investment’. As bank loans 
+and money market transactions are the main components of this category, we refer to 
+these flows as ‘bank and money market’ flows to lend them a more meaningful label.
+53 OT is one of the world’s most advanced mines and is combined open pit and 
+underground mining project in the south near the border with China. Oyu Tolgoi LLC 
+is a strategic partnership between the Government of Mongolia (GoM) which owns 
+34 percent of the mine, Turquoise Hills Resources (Canada) and Rio Tinto (UK). The 
+first phase or open pit investment and constructions are finished and second phase or 
+underground mines investment is under negotiation between the GoM and Rio Tinto.
+---PAGE---
+320
+Монголбанк   Судалгааны ажил “Товхимол-11”
+GDP) for its first phase. Therefore, we also call the period, 2010–12 as a 
+capital inflow surge period in the following sections.
+Although the second phase of the OT investment, amounted about US$4.5 
+billion, must have been started in 2013 according to investment agreement, 
+it was postponed by undefined time due to the political disputes. In addition, 
+public demonstrations against foreign ownerships of Mongolian strategic 
+mines became a big social issue and the GoM temporarily stopped to issue 
+licenses in the mining sector during 2012–15. A new law on the “Regulation 
+of Foreign Investment in Business Entities Operating in Sectors of Strategic 
+Importance” which was approved in 2012 also created an unpleasant 
+environment for foreign investors. Therefore, the FDI has declined sharply 
+because of the lack of favorable investment environment in domestic 
+economy accompanied by weak global financial conditions, and drops in 
+commodity demand and prices since the second half of 2012. Furthermore, 
+the FDI inflows have become even negative because of the disinvestment or 
+loss of those FDI related mining companies since the end of 2014. Thus, we 
+call the period since 2013 as a capital stop or reversal in this paper.
+Figure 2. Mongolia: FDI Inflows
+percent of GDP
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+4 
+ 
+have become even negative because of the disinvestment or loss of those FDI related mining 
+companies since the end of 2014 . Thus, we call the period since 2013 as a capital stop or 
+reversal in this paper. 
+ 
+Figure 2 
+Mongolia: FDI Inflows 
+percent of GDP 
+ 
+Note:     When the foreign-invested companies operate with a net loss, it will be recorded 
+in the FDI account of BOP as a disinvestment (negative FDI inflows). 
+Source:    Bank of Mongolia 
+ 
+Mongolian foreign trade and financial accounts have been fully liberalized since 1990s, but  
+the equity and bond investments had not been came into the economy until 2010. The non-
+banking sector is very small compared to the banking sector which makes up 95 percent of 
+the financial markets in Mongolia. The equity market is also unattractive because the market 
+has a poor transparency and lack of efficiency, therefore any significant PFE inflows have not 
+been came into Mongolia until today. Furthermore, Mongolian money market includes a few 
+and limited instruments such as Central bank  bills, Government notes and commercial 
+certificates of deposit which are denominated in domestic currency  and closed to foreign 
+investors. However, after the foreign investors’ optimism about the economic prospects since 
+2010, Mongolia became able to issue bonds in the international markets mainly owned and 
+guaranteed by the GoM. For instance, the GoM, the state -owned Development Bank  of 
+Mongolia (DBM), some commercial banks and private companies raised a total of US$2.4 
+billion (25 percent of GDP) in 2012. 
+ 
+Initially, the bonds were issued to finance domestic infrastructure development and to 
+provide short-term FX liquidity in the banking sector.5 But, the bonds issuances and public 
+sector external loan disbursements during the sudden stop of the FDI inflows tended to fill  
+the balance of payments financing gap and short -term FX liquidity in the banking sector. 
+Mongolia issued bonds amounted total of US$1.6 billion between 2013 and the first half of 
+                                                 
+5 In December 2012, the GoM issued US$1 billion and US$500 million sovereign bonds which have tw o different (10 and 5 
+years, respectively) maturity, and it reflects a large PFD increase in 2012. 
+-20%
+0%
+20%
+40%
+60%
+-20%
+0%
+20%
+40%
+60%
+Q1
+2009
+Q3 Q1
+2010
+Q3 Q1
+2011
+Q3 Q1
+2012
+Q3 Q1
+2013
+Q3 Q1
+2014
+Q3
+Mining
+Construction
+Information & Communication
+Banking & Finance
+Railroad
+Real estate
+Trade & Services
+Other
+Note: When the foreign-invested companies operate with a net loss, it will be recorded in 
+the FDI account of BOP as a disinvestment (negative FDI inflows).
+Source: Bank of Mongolia
+Mongolian foreign trade and financial accounts have been fully liberalized 
+since 1990s, but the equity and bond investments had not been came into 
+the economy until 2010. The non-banking sector is very small compared 
+---PAGE---
+321
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+to the banking sector which makes up 95 percent of the financial markets 
+in Mongolia. The equity market is also unattractive because the market 
+has a poor transparency and lack of efficiency, therefore any significant 
+PFE inflows have not been came into Mongolia until today. Furthermore, 
+Mongolian money market includes a few and limited instruments such as 
+Central bank bills, Government notes and commercial certificates of deposit 
+which are denominated in domestic currency and closed to foreign investors. 
+However, after the foreign investors’ optimism about the economic prospects 
+since 2010, Mongolia became able to issue bonds in the international markets 
+mainly owned and guaranteed by the GoM. For instance, the GoM, the state-
+owned Development Bank of Mongolia (DBM), some commercial banks and 
+private companies raised a total of US$2.4 billion (25 percent of GDP) in 
+2012.
+Initially, the bonds were issued to finance domestic infrastructure 
+development and to provide short-term FX liquidity in the banking sector.
+54 
+But, the bonds issuances and public sector external loan disbursements 
+during the sudden stop of the FDI inflows tended to fill the balance of 
+payments financing gap and short-term FX liquidity in the banking sector. 
+Mongolia issued bonds amounted total of US$1.6 billion between 2013 and 
+the first half of 2015 (see Table 1 for details). As a result, the PFE flows have 
+become the second major source for the capital inflows in Mongolia.
+Table 1. Mongolia: Successfully Issued Bonds and Equities
+between 2007–15
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+5 
+ 
+2015 (see Table 1 for details). As a result , the PFE flows have become the second major 
+source for the capital inflows in Mongolia. 
+ 
+Table 1 
+Mongolia: Successfully Issued Bonds and Equities 
+between 2007–15 
+ 
+Note:    GoM = Government of Mongolia, DBM6 = Development Bank of Mongolia, TDB = Trade and Development Bank, 
+mmC 7 = Mongolian Mining Corporation 
+Source:    Bank of Mongolia 
+ 
+For the BMM, public sector concessional loans from international financial institutions such 
+as World Bank, ADB, EBRD and banking sector commercial loans composed the significant 
+part of the BMM and total capital inflows prior to the mining boom . However, these inflows 
+became less significant after the mining boom . In addition, the specific foreign ownership 
+structure of the biggest mining projects have been one of  the main sources of the BMM 
+outflows in the recent years . The foreign-invested mining companies started to export their 
+products, however, Mongolia has not received its export income in full amount as the 
+investors have not intend to save their income in domestic banks. Instead, they kept their 
+export receipt  in their bank accounts abroad and its balance of payments entry in the 
+‘currency and deposits account’ suggests that there have been large capital outflow s for the 
+past three years. Therefore, it should be noted that large part of the BMM outflows are the  
+BOP entries mentioned above. 
+                                                 
+6 In 2011, the government established the state -owned DBM in order to finance large mining and infrastructure projects and 
+show great impact to the current development of Mongolia. 
+7 MMC is the largest privately owned coal mining company in Mongolia. Established in 2005, it listed on the Hong Kong 
+Stock Exchange in October 2010. 
+Type/Name Issuer Issued date Currency Amount Coupon Maturity Duration
+(years)
+1. International bond DBM 2012/03 USD 580 million 5.8% 2017/03 5
+2. Sovereign bond GoM 2012/12 USD 500 million 4.1% 2018/01 5
+3. Sovereign bond GoM 2012/12 USD 1 billion 5.1% 2022/12 10
+4. Samurai bond DBM 2013/12 JPY 30 billion 1.5% 2023/12 10
+5. Dimsum bond GoM 2015/06 CNY 1 billion 7.5% 2018/06 3
+6. International bond TDB 2007/01 USD 75 million 8.6% 2010/01 3
+7. International bond TDB 2010/10 USD 175 million 8.5% 2013/10 3
+8. International bond TDB 2010/11 USD 25 million 12.5% 2015/11 5
+9. International bond TDB 2012/09 USD 300 million 8.5% 2015/09 3
+10. Dimsum bond TDB 2014/01 CNY 700 million 10.0% 2017/01 3
+11. International bond TDB 2015/05 USD 500 million 9.4% 2020/05 5
+12. IPO (Equity) mmC 2010/10 USD 650 million 7.0%
+13. International bond mmC 2012/03 USD 600 million 8.9% 2017/03 5
+54 In December 2012, the GoM issued US$1 billion and US$500 million sovereign bonds 
+which have two different (10 and 5 years, respectively) maturity, and it reflects a large 
+PFD increase in 2012.
+---PAGE---
+322
+Монголбанк   Судалгааны ажил “Товхимол-11”
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+5 
+ 
+2015 (see Table 1 for details). As a result , the PFE flows have become the second major 
+source for the capital inflows in Mongolia. 
+ 
+Table 1 
+Mongolia: Successfully Issued Bonds and Equities 
+between 2007–15 
+ 
+Note:    GoM = Government of Mongolia, DBM6 = Development Bank of Mongolia, TDB = Trade and Development Bank, 
+mmC 7 = Mongolian Mining Corporation 
+Source:    Bank of Mongolia 
+ 
+For the BMM, public sector concessional loans from international financial institutions such 
+as World Bank, ADB, EBRD and banking sector commercial loans composed the significant 
+part of the BMM and total capital inflows prior to the mining boom . However, these inflows 
+became less significant after the mining boom . In addition, the specific foreign ownership 
+structure of the biggest mining projects have been one of  the main sources of the BMM 
+outflows in the recent years . The foreign-invested mining companies started to export their 
+products, however, Mongolia has not received its export income in full amount as the 
+investors have not intend to save their income in domestic banks. Instead, they kept their 
+export receipt  in their bank accounts abroad and its balance of payments entry in the 
+‘currency and deposits account’ suggests that there have been large capital outflow s for the 
+past three years. Therefore, it should be noted that large part of the BMM outflows are the  
+BOP entries mentioned above. 
+                                                 
+6 In 2011, the government established the state -owned DBM in order to finance large mining and infrastructure projects and 
+show great impact to the current development of Mongolia. 
+7 MMC is the largest privately owned coal mining company in Mongolia. Established in 2005, it listed on the Hong Kong 
+Stock Exchange in October 2010. 
+Type/Name Issuer Issued date Currency Amount Coupon Maturity Duration
+(years)
+1. International bond DBM 2012/03 USD 580 million 5.8% 2017/03 5
+2. Sovereign bond GoM 2012/12 USD 500 million 4.1% 2018/01 5
+3. Sovereign bond GoM 2012/12 USD 1 billion 5.1% 2022/12 10
+4. Samurai bond DBM 2013/12 JPY 30 billion 1.5% 2023/12 10
+5. Dimsum bond GoM 2015/06 CNY 1 billion 7.5% 2018/06 3
+6. International bond TDB 2007/01 USD 75 million 8.6% 2010/01 3
+7. International bond TDB 2010/10 USD 175 million 8.5% 2013/10 3
+8. International bond TDB 2010/11 USD 25 million 12.5% 2015/11 5
+9. International bond TDB 2012/09 USD 300 million 8.5% 2015/09 3
+10. Dimsum bond TDB 2014/01 CNY 700 million 10.0% 2017/01 3
+11. International bond TDB 2015/05 USD 500 million 9.4% 2020/05 5
+12. IPO (Equity) mmC 2010/10 USD 650 million 7.0%
+13. International bond mmC 2012/03 USD 600 million 8.9% 2017/03 5
+Note: GoM = Government of Mongolia, DBM56 = Development Bank of Mongolia, TDB = 
+Trade and Development Bank, MMC57 = Mongolian Mining Corporation
+Source: Bank of Mongolia
+For the BMM, public sector concessional loans from international 
+financial institutions such as World Bank, ADB, EBRD and banking sector 
+commercial loans composed the significant part of the BMM and total capital 
+inflows prior to the mining boom. However, these inflows became less 
+significant after the mining boom. In addition, the specific foreign ownership 
+structure of the biggest mining projects have been one of the main sources 
+of the BMM outflows in the recent years. The foreign-invested mining 
+companies started to export their products, however, Mongolia has not 
+received its export income in full amount as the investors have not intend to 
+save their income in domestic banks. Instead, they kept their export receipt in 
+their bank accounts abroad and its balance of payments entry in the ‘currency 
+and deposits account’ suggests that there have been large capital outflows for 
+the past three years. Therefore, it should be noted that large part of the BMM 
+outflows are the BOP entries mentioned above.
+5556
+2.2. Volatility in the Capital Flows
+In this section, we calculate the volatility of gross and net capital flows in 
+Mongolia by types as a simple standard deviation. We consider three 
+timeframes: 2005–07, 2008–09, and 2010–15.Q2 in order to show the 
+variations of capital flows as illustrated in Table 2.
+According to the calculation, volatilities of all types of the flows were 
+relatively low prior to the global financial crisis, however, it increased 
+during the turmoil of the crisis during 2008–09. After the crisis, volatility 
+of non-resident capital inflows (liabilities) increased substantially because 
+of the capital flows surge and sudden stop. We also found that non-resident 
+flows are more volatile than the resident flows due to the small international 
+investment position of the residents as discussed in the previous section.
+55 In 2011, the government established the state-owned DBM in order to finance large 
+mining and infrastructure projects and show great impact to the current development of 
+Mongolia.
+56 MMC is the largest privately owned coal mining company in Mongolia. Established in 
+2005, it listed on the Hong Kong Stock Exchange in October 2010.
+---PAGE---
+323
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+As we mentioned before, the FDI inflow is the most volatile capital flow 
+among the different types of capital flows in Mongolia due to the strong 
+dependence on the mining sector and commodity cycles. The fact that a 
+few mining projects (OT and others) started and completed their investment 
+stages almost at the same time was another factor that increased the volatility 
+of the FDI inflows. Furthermore, the portfolio debt (PFD) and portfolio 
+equity (PFE) inflows had a significant fluctuations during 2010–15. Q2 due to 
+the bond and equity issuances that is represented in Table 1.
+Table 2. Mongolia: Volatility of Capital Flows by Type
+percent of GDP*
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+6 
+ 
+2.2 Volatility in the Capital Flows 
+In this section, we calculate the volatility of gross and net capital flows in Mongolia by type s 
+as a simple standard deviation. We consider three timeframes: 2005–07, 2008–09, and 2010–
+15.Q2 in order to show the variations of capital flows as illustrated in Table 2. 
+ 
+According to the calculation, volatilities of all types of the flows were relatively low prior to 
+the global financial crisis, however, it increased during the turmoil of the crisis during 2008–
+09. After the crisis, volatility of non-resident capital inflows (liabi lities) increased 
+substantially because of the capital flows surge and sudden stop . We also found that non-
+resident flows  are more volatile than the resident flows  due to the small in ternational 
+investment position of the residents as discussed in the previous section. 
+ 
+As we mentioned before, the FDI inflow is the most volatile capital flow among the different 
+types of capi tal flows in Mongolia due to the strong dependence on the mining sector and 
+commodity cycles. The fact that a few mining projects (OT and others) started and completed 
+their investment stages almost at the same time was another factor that increased the volatility 
+of the FDI inflows. Furthermore, the portfolio debt (PFD) and portfolio equity (PFE ) inflows 
+had a significant fluctuations during 2010–15.Q2 due to the bond and equity issuances that is 
+represented in Table 1. 
+ 
+Table 2 
+Mongolia: Volatility of Capital Flows by Type 
+percent of GDP* 
+ 
+*    Volatility is measured as the standard deviation of the quarterly flows as a percent of GDP. 
+Source:    authors’ calculations 
+ 
+The bank and money market (BMM) flow has been fluctuated significantly over time for both 
+asset and liability sides, which is  a reflection of the  two sided flow  in Mongolia. On the 
+outflow side, the reserve flow was the most volatile. The reason is that the BoM intervened a 
+lot in domestic FX market through its international reserves creating the high volatility in the 
+reserve outflows in periods of 2013 –15. It showed that the BoM has a fear of floating like 
+many other emerging market economies (EMEs). 
+FDI PFE PFD BMM RES DER KAB FDI PFE PFD BMM RES DER KAB FDI PFE PFD BMM RES DER KAB
+2005-07 0.2 0.0 0.0 4.7 7.5 0.0 7.6 4.2 0.0 2.8 2.0 0.0 0.0 5.3 4.1 0.0 2.8 4.7 7.5 0.0 7.8
+2008-09 1.5 0.4 3.3 4.0 11.4 0.0 14.5 4.5 0.2 2.1 6.8 0.0 0.0 6.9 5.4 0.4 4.9 7.4 11.4 0.0 11.7
+2010-15.Q2 0.7 0.2 2.1 8.8 14.6 0.0 17.9 18.1 6.4 11.8 8.0 0.0 0.0 25.7 18.2 6.4 12.1 12.1 14.6 0.0 15.3
+Total 0.8 0.2 2.1 9.0 12.4 0.0 14.9 15.0 4.6 8.9 6.8 0.0 0.0 22.0 15.0 4.6 9.5 10.8 12.4 0.0 15.8
+1 2 3 4 5 6 7
+Lower Higher
+Assets Liabilities Net
+* Volatility is measured as the standard deviation of the quarterly 
+flows as a percent of GDP.
+Source: authors’ calculations
+The bank and money market (BMM) flow has been fluctuated significantly 
+over time for both asset and liability sides, which is a reflection of the two 
+sided flow in Mongolia. On the outflow side, the reserve flow was the most 
+volatile. The reason is that the BoM intervened a lot in domestic FX market 
+through its international reserves creating the high volatility in the reserve 
+outflows in periods of 2013–15. It showed that the BoM has a fear of floating 
+like many other emerging market economies (EMEs).
+2.3. Openness to Capital Flows
+Another measure that helps to understand characteristics of the capital flows 
+and its volatility is a measure of openness to capital flows. As discussed by 
+Becker and Noone (2009), openness to capital flows is one of the important 
+factors that encourages volatility of capital flows and we calculate a very 
+simple measure of degree of openness to capital movements in Mongolia. 
+The index is defined as a ratio of absolute value of gross flows to absolute 
+value of sum of gross and net flows as follows:
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+7 
+ 
+2.3 Openness to Capital Flows 
+Another measure that helps to understand characteristics of the capital flows and its volatility 
+is a measure of openness to capital flows. As discussed by Becker and Noone (2009), 
+openness to capital flows is one of the important factors that encourages volatility of capital 
+flows and we calculate a very simple measure of degree of  openness to capital movements in 
+Mongolia. The index is defined as a ratio of absolute value of gross flows to absolute value of 
+sum of gross and net flows as follows: 
+ 
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑖𝑖𝑖𝑖
+= [
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖|
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| − 1
+2]
+× 200 
+ 
+According to the formula, we expect the sum of absolute gross flows to be large relative to 
+the net flows when the capital flows of particular country freely in both directions . In this 
+case, the index tends towards 100. In contrast, we expect the gross flows to be small relative 
+to the net flows when the capital flows are very one -sided. The most extreme case would be 
+where the gross flows  (either assets or liabilities) are the  same size as the net flows. This 
+would occur if either resident or non -resident flows were completely restricted. In this case, 
+the value of the index would be zero. 
+ 
+Figure 3 
+Mongolia: Openness to Capital Flows 
+index 
+ 
+*    BMM includes all the inflows and outflows of the ‘other investment’ account. 
+Source:    authors’ calculation 
+ 
+According to the calculation for Mongolia, the indices are relatively small for all types of 
+flows reflecting that the capital flows of Mongolia are  one-sided as mentioned in previous 
+sections. In details, the portfolio equity, portfolio debt and FDI flows are mainly driven by 
+non-resident inflows. The change in foreign exchange reserves  is by definition always one -
+0
+20
+40
+60
+80
+100
+0
+20
+40
+60
+80
+100
+KAB FDI PFE PFD BMM* RES DER
+Average
+(2005-2015.H1)
+Maximum
+Minimum
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+7 
+ 
+2.3 Openness to Capital Flows 
+Another measure that helps to understand characteristics of the capital flows and its volatility 
+is a measure of openness to capital flows. As discussed by Becker and Noone (2009), 
+openness to capital flows is one of the important factors that encourages volatility of capital 
+flows and we calculate a very simple measure of degree of  openness to capital movements in 
+Mongolia. The index is defined as a ratio of absolute value of gross flows to absolute value of 
+sum of gross and net flows as follows: 
+ 
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑖𝑖𝑖𝑖
+= [ |𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖|
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| − 1
+2]
+× 200 
+ 
+According to the formula, we expect the sum of absolute gross flows to be large relative to 
+the net flows when the capital flows of particular country freely in both directions . In this 
+case, the index tends towards 100. In contrast, we expect the gross flows to be small relative 
+to the net flows when the capital flows are very one -sided. The most extreme case would be 
+where the gross flows  (either assets or liabilities) are the  same size as the net flows. This 
+would occur if either resident or non -resident flows were completely restricted. In this case, 
+the value of the index would be zero. 
+ 
+Figure 3 
+Mongolia: Openness to Capital Flows 
+index 
+ 
+*    BMM includes all the inflows and outflows of the ‘other investment’ account. 
+Source:    authors’ calculation 
+ 
+According to the calculation for Mongolia, the indices are relatively small for all types of 
+flows reflecting that the capital flows of Mongolia are  one-sided as mentioned in previous 
+sections. In details, the portfolio equity, portfolio debt and FDI flows are mainly driven by 
+non-resident inflows. The change in foreign exchange reserves  is by definition always one -
+0
+20
+40
+60
+80
+100
+0
+20
+40
+60
+80
+100
+KAB FDI PFE PFD BMM* RES DER
+Average
+(2005-2015.H1)
+Maximum
+Minimum
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+7 
+ 
+2.3 Openness to Capital Flows 
+Another measure that helps to understand characteristics of the capital flows and its volatility 
+is a measure of openness to capital flows. As discussed by Becker and Noone (2009), 
+openness to capital flows is one of the important factors that encourages volatility of capital 
+flows and we calculate a very simple measure of degree of  openness to capital movements in 
+Mongolia. The index is defined as a ratio of absolute value of gross flows to absolute value of 
+sum of gross and net flows as follows: 
+ 
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑖𝑖𝑖𝑖
+= [ |𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖|
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| − 1
+2]
+× 200 
+ 
+According to the formula, we expect the sum of absolute gross flows to be large relative to 
+the net flows when the capital flows of particular country freely in both directions . In this 
+case, the index tends towards 100. In contrast, we expect the gross flows to be small relative 
+to the net flows when the capital flows are very one -sided. The most extreme case would be 
+where the gross flows  (either assets or liabilities) are the  same size as the net flows. This 
+would occur if either resident or non -resident flows were completely restricted. In this case, 
+the value of the index would be zero. 
+ 
+Figure 3 
+Mongolia: Openness to Capital Flows 
+index 
+ 
+*    BMM includes all the inflows and outflows of the ‘other investment’ account. 
+Source:    authors’ calculation 
+ 
+According to the calculation for Mongolia, the indices are relatively small for all types of 
+flows reflecting that the capital flows of Mongolia are  one-sided as mentioned in previous 
+sections. In details, the portfolio equity, portfolio debt and FDI flows are mainly driven by 
+non-resident inflows. The change in foreign exchange reserves  is by definition always one -
+0
+20
+40
+60
+80
+100
+0
+20
+40
+60
+80
+100
+KAB FDI PFE PFD BMM* RES DER
+Average
+(2005-2015.H1)
+Maximum
+Minimum
+---PAGE---
+324
+Монголбанк   Судалгааны ажил “Товхимол-11”
+According to the formula, we expect the sum of absolute gross flows to be 
+large relative to the net flows when the capital flows of particular country 
+freely in both directions. In this case, the index tends towards 100. In 
+contrast, we expect the gross flows to be small relative to the net flows when 
+the capital flows are very one-sided. The most extreme case would be where 
+the gross flows (either assets or liabilities) are the same size as the net flows. 
+This would occur if either resident or non-resident flows were completely 
+restricted. In this case, the value of the index would be zero.
+Figure 3. Mongolia: Openness to Capital Flows index
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+7 
+ 
+2.3 Openness to Capital Flows 
+Another measure that helps to understand characteristics of the capital flows and its volatility 
+is a measure of openness to capital flows. As discussed by Becker and Noone (2009), 
+openness to capital flows is one of the important factors that encourages volatility of capital 
+flows and we calculate a very simple measure of degree of  openness to capital movements in 
+Mongolia. The index is defined as a ratio of absolute value of gross flows to absolute value of 
+sum of gross and net flows as follows: 
+ 
+𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹 𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑂𝑖𝑖𝑖𝑖
+= [
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖|
+|𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝐹𝐹𝑂𝑂𝑁𝑁𝑂𝑂𝑂𝑂𝑅𝑅𝑅𝑅𝑂𝑂𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| + |𝑁𝑁𝑂𝑂𝑅𝑅 𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝐹𝑂𝑂𝑖𝑖𝑖𝑖| − 1
+2]
+× 200 
+ 
+According to the formula, we expect the sum of absolute gross flows to be large relative to 
+the net flows when the capital flows of particular country freely in both directions . In this 
+case, the index tends towards 100. In contrast, we expect the gross flows to be small relative 
+to the net flows when the capital flows are very one -sided. The most extreme case would be 
+where the gross flows  (either assets or liabilities) are the  same size as the net flows. This 
+would occur if either resident or non -resident flows were completely restricted. In this case, 
+the value of the index would be zero. 
+ 
+Figure 3 
+Mongolia: Openness to Capital Flows 
+index 
+ 
+*    BMM includes all the inflows and outflows of the ‘other investment’ account. 
+Source:    authors’ calculation 
+ 
+According to the calculation for Mongolia, the indices are relatively small for all types of 
+flows reflecting that the capital flows of Mongolia are  one-sided as mentioned in previous 
+sections. In details, the portfolio equity, portfolio debt and FDI flows are mainly driven by 
+non-resident inflows. The change in foreign exchange reserves  is by definition always one -
+0
+20
+40
+60
+80
+100
+0
+20
+40
+60
+80
+100
+KAB FDI PFE PFD BMM* RES DER
+Average
+(2005-2015.H1)
+Maximum
+Minimum
+* BMM includes all the inflows and outflows of the ‘other investment’ account.
+Source: authors’ calculation
+According to the calculation for Mongolia, the indices are relatively small for 
+all types of flows reflecting that the capital flows of Mongolia are one-sided 
+as mentioned in previous sections. In details, the portfolio equity, portfolio 
+debt and FDI flows are mainly driven by non-resident inflows. The change in 
+foreign exchange reserves is by definition always one-sided
+57 and Mongolia 
+has no derivative investments. But, the openness index for the total capital 
+flows (KAB) is higher due to the asset flows of reserves and liability flows 
+of other accounts. We also consider the flows might have a low openness 
+because either resident or non-resident flows are inhibited due to a lack of 
+domestic financial markets development.
+2.4. Determinants of Capital Flows: Push and Pull Factors
+The clear understanding of behavior of the capital flows is beneficial for 
+57 Foreign exchange reserves are resident assets and have no corresponding non-resident 
+liability. Hence the gross flows are always entirely due to changes in resident assets and 
+equal to net reserve movements. The index is anchored at zero by definition.
+---PAGE---
+325
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+policy makers to implement appropriate policy responses to changes of them. 
+Investigating main drivers of the capital flows is thus an important policy 
+issue, which is reflected in significant academic interest since the early 1990s 
+(Koepke, 2015). The reason is that appropriate policy response to the capital 
+flows depends on the driving forces behind them.
+The seminal work by Calvo, Leiderman and Reinhart (1992) and Fernandez-
+Arias (1996) introduced distinction between country-specific “pull” 
+factors and external “push” factors and provided a theoretical framework. 
+Fernandez-Arias (1996) and Taylor and Sarno (1997) found that capital 
+inflows are generally driven by external factors, however, Ghosh and Ostry 
+(1993) and Förster et al. (2014) argued that domestic economic fundamentals 
+were the major driver of capital flows for a large group of emerging market 
+economies (EMEs). The push-pull framework provides a simple and intuitive 
+classification of capital flows drivers. Although the framework certainly 
+has limitations (for example, international investors behavior and contagion 
+effects are not included in this framework), it continues to be a useful 
+analytical perspective for structuring the discussion on determinants of the 
+EMEs capital flows.
+Another corresponding dimension in the discussion of country–specific and 
+global factors is distinction between cyclical and structural forces that affect 
+to capital flows. The cyclical factors are naturally shorter–term and often 
+vary across different phases of business cycle. On the contrary, the structural 
+factors are more long-term and related to the macroeconomic fundamentals, 
+institutions, and policy and regulatory frameworks (Koepke, 2015).
+The characteristics of capital flows also differ between net and gross flows. 
+The net capital flows are the mirror illustration of the current account 
+balance. In contrast, the gross capital flows consider resident outflows and 
+non–resident inflows separately (i.e., the changes in assets and liabilities 
+in the financial account). For the purpose of understanding capital flow 
+movements, the gross capital flows are more relevant. When explaining 
+the gross capital flows movement, there has been much more focus on the 
+cyclical factors, especially in the most recent period since the global financial 
+crisis of 2008/09.
+---PAGE---
+326
+Монголбанк   Судалгааны ажил “Товхимол-11”
+Figure 4. Determinants of Capital Flows
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+9 
+ 
+Figure 4 
+Determinants of Capital Flows 
+Cyclical factors
+ Global risk aversion
+ Interest rates in advanced economies
+ Output growth in advanced economies or 
+countries that have a financial contagion
+ Commodity prices
+Cyclical factors
+ Domestic output growth
+ Asset return indicators (domestic interest rate)
+ Country risk indicators
+Push factors Pull factors
+Capital flows
+AEs EMEs
+ 
+Source:    Koepke (2015); authors’ view 
+ 
+In addition, Cerutti, Claessens and Puy (2015) concludes that global push factors in the 
+advanced economies mostly explain the dynamics of aggr egate inflows to the EmE s by 
+conducting a systematic analysis of the sensitivity of 34 EM Es to global push factors for 
+periods of 2001–13 and also using the factor model of Kose, Otrok and Whiteman (2003). 
+ 
+Koepke (2015) suggested that driving factors of capital flows differed across types of capital 
+flows. For example, global risk aversion, mature economy interest rates and country risk have 
+a clear negative relationships with the PFE, PFD and BMM  flows while advanced and 
+domestic economy growth, and domestic asset return have some positive relatio nships with 
+these flows. Only domestic output growth and country risk have a clear relationships with the 
+FDI flow in EMEs. 
+ 
+The panel estimation,9 factor model10 and the SVAR model11 are widely used in the pull-push 
+framework. However, simple methods such as a residual-based cointegration approach , 
+proposed by Engle and Granger (1987) and Johansen VECM method are applied in this paper 
+to determine push-pull factors of the capital flows of Mongolia. 
+ 
+Since the capital flows in Mongolia is large ly one- sided and the FDI inflow  is the most 
+significant and sustained in Mongolia, we concentrate more on the determinants of the FDI 
+inflows. The recent sudden stop of the capital inflows in Mongolia is related to the decline of 
+the FDI, thus investigating the driving forces is crucial for policy analysis. 
+ 
+ 
+                                                 
+9 See Alleyne and Mecagni (2014), Brana and Lahet (2008) to study further in this direction. 
+10 The readers who want to study further, please see Cerutti, Claessens and Puy (2015), Förster et al. (2014), and Fratzscher 
+(2012). 
+11 For the papers in which the SVAR model is used to investigate the push -pull framework, see Çulha (2006), Korap (2010), 
+and Boschi (2012). 
+Source: Koepke (2015); authors’ view
+In addition, Cerutti, Claessens and Puy (2015) concludes that global push 
+factors in the advanced economies mostly explain the dynamics of aggregate 
+inflows to the EMEs by conducting a systematic analysis of the sensitivity 
+of 34 EMEs to global push factors for periods of 2001–13 and also using the 
+factor model of Kose, Otrok and Whiteman (2003).
+Koepke (2015) suggested that driving factors of capital flows differed across 
+types of capital flows. For example, global risk aversion, mature economy 
+interest rates and country risk have a clear negative relationships with the 
+PFE, PFD and BMM flows while advanced and domestic economy growth, 
+and domestic asset return have some positive relationships with these flows. 
+Only domestic output growth and country risk have a clear relationships with 
+the FDI flow in EMEs.
+The panel estimation,
+58 factor model59 and the SVAR model60 are widely used 
+in the pull-push framework. However, simple methods such as a residual-
+based cointegration approach, proposed by Engle and Granger (1987) and 
+Johansen VECM method are applied in this paper to determine push-pull 
+factors of the capital flows of Mongolia.
+Since the capital flows in Mongolia is largely one-sided and the FDI inflow 
+is the most significant and sustained in Mongolia, we concentrate more on 
+58 See Alleyne and Mecagni (2014), Brana and Lahet (2008) to study further in this direction.
+59 The readers who want to study further, please see Cerutti, Claessens and Puy (2015), Förster et al. 
+(2014), and Fratzscher (2012).
+60 For the papers in which the SVAR model is used to investigate the push-pull framework, see Çulha 
+(2006), Korap (2010), and Boschi (2012).
+---PAGE---
+327
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+the determinants of the FDI inflows. The recent sudden stop of the capital 
+inflows in Mongolia is related to the decline of the FDI, thus investigating the 
+driving forces is crucial for policy analysis.
+Table 3. Data Definition
+Indicators Choice of variable Notation Source
+Capital Inflows
+1. Foreign direct investment FDI (share of GDP) FDI IMF-ICS; BoM; NSO
+2. Bank and money market 
+investment
+BMM (share of GDP) BMM IMF-ICS; BoM, 
+NSO
+3. Portfolio debt investment PFD (share of GDP) PFD IMF-ICS; BoM, 
+NSO
+4. Portfolio equity investment PFE (share of GDP) PFE IMF-ICS; BoM, 
+NSO
+Push Factors
+1. Global risk aversion VIX index VIX IMF
+2. Advanced economy output 
+growth
+U.S. GDP growth GDP_US BEA
+3. Output growth of a 
+country that has a financial 
+contagion
+China GDP growth GDP_
+CHN
+Bloomberg
+4. Commodity prices Copper price
+Coal price
+Gold price
+COPPER
+COAL
+GOLD
+IMF
+Bloomberg
+Bloomberg
+Pull Factors
+1. Domestic output growth GDP growth GDP_
+MNG
+NSO
+2. Interest rate differential 
+(domestic rate minus 
+advanced economy rate)
+Domestic interest rate: 
+Interbank weighted 
+average rate minus CPI 
+inflation
+Advanced economy 
+interest rate: 3 month 
+Libor minus U.S. CPI 
+inflation
+RA TE_
+DIF
+Bloomberg; BoM; 
+authors’ calculation
+3. Country risk indicators Government external 
+debt-to-GDP ratio
+DEBT_
+GOV
+BoM; NSO
+Notes: BoM = Bank of Mongolia, NSO = National Statistical Office, 
+BEA = Bureau of Economic Analysis
+Figure 4 presents all possible factors that might have affected to the FDI 
+inflows of Mongolia and the data used in empirical analysis is defined in 
+Table 3. Our data sample covers the period between 2006:Q1–2015:Q2.
+---PAGE---
+328
+Монголбанк   Судалгааны ажил “Товхимол-11”
+Table 4. Drivers of Mongolia’s Capital Flows
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+10 
+ 
+Table 3 
+Data Definition 
+ Indicators Choice of variable Notation Source 
+ Capital Inflows 
+1. Foreign direct investment FDI (share of GDP) FDI IMF-ICS; BoM; NSO 
+2. Bank and money market 
+investment 
+BMM (share of GDP) BMM IMF-ICS; BoM, NSO 
+3. Portfolio debt investment PFD (share of GDP) PFD IMF-ICS; BoM, NSO 
+4. Portfolio equity investment PFE (share of GDP) PFE IMF-ICS; BoM, NSO 
+ Push Factors 
+1. Global risk aversion VIX index VIX IMF 
+2. Advanced economy output 
+growth 
+U.S. GDP growth GDP_US BEA 
+3. Output growth of a country that 
+has a financial contagion 
+China GDP growth GDP_CHN Bloomberg 
+4. Commodity prices Copper price 
+Coal price 
+Gold price 
+COPPER 
+COAL 
+GOLD 
+IMF 
+Bloomberg 
+Bloomberg 
+ Pull Factors 
+1. Domestic output growth GDP growth GDP_MNG NSO 
+2. Interest rate differential 
+(domestic rate minus 
+advanced economy rate) 
+Domestic interest rate:        
+Interbank weighted average 
+rate minus CPI inflation 
+Advanced economy interest 
+rate:   3 month Libor minus 
+U.S. CPI inflation 
+RATE_DIF Bloomberg; BoM; 
+authors’ calculation 
+3. Country risk indicators Government external debt-to-
+GDP ratio 
+DEBT_GOV BoM; NSO 
+  Notes:    BoM = Bank of Mongolia, NSO = National Statistical Office, BEA = Bureau of Economic Analysis 
+ 
+Figure 4 presents all possible factors that might have affected to the FDI inflows of Mongolia 
+and the data used in empirical analysis is defined in Table 3. Our data sample covers the 
+period between 2006:Q1–2015:Q2. 
+ 
+Table 4 
+Drivers of Mongolia’s Capital Flows 
+ 
+Source:    authors’ illustration 
+Type Driv er FDI B MM PFD PFE
+G lobal risk aversion (V IX index )
+Advanced econom y output growth (U.S.)
+Outpu growth of the country that has 
+financial contagion (China)
+Copper price
+Coal price
+G old price
+Dom estic output growth
+Interest rate differential (domestic rate 
+m inus foreign rate)
+Country risk indicator
+  Positive relationship
+  No relationship
+  Negative relationship
+Push
+Pull
+Source: authors’ illustration
+According to unit root test, only FDI inflow is non-stationary among the 
+types of capital inflows in Mongolia, thus, we do not apply the cointegration 
+methodologies for the other types of flows. For the determinants, all the 
+variables were non-stationary or I(1) processes except the U.S. GDP growth. 
+The integration orders of the variables estimated by the ADF test are 
+illustrated in Table 6.
+---PAGE---
+329
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+Table 5. OLS and VECM Estimation Results
+Dependent variable: FDI inflows-to-GDP ratio
+(a) Vector Error Correction Estimates
+Cointegrating Eq: CointEq1  
+FDI(-1) 1.00
+DEBT_GOV(-1) 89.64
+-9.45
+[ 9.48]
+Error Correction: D(FDI) D(DEBT_
+GOV)
+CointEq1 -0.75 0.00
+-0.17 0.00
+[-4.31] [-1.05]
+COPPER 23.69 -0.02
+-5.81 -0.04
+[ 4.07] [-0.35]
+COAL 12.95 -0.02
+-4.76 -0.04
+[ 2.72] [-0.50]
+GOLD 2.84 0.13
+-7.76 -0.06
+[ 0.36] [ 2.30]
+RATE_DIF* 0.47 0.00
+-0.18 0.00
+[ 2.59] [ 0.49]
+Adj. R-squared 0.36 0.06
+Number of 
+observations
+37 after adjustment
+ 
+(b) OLS Estimates
+Coefficient 
+value t-statistics
+DEBT_GOV -75.28 -9.10
+COPPER 15.95 3.22
+COAL 19.71 4.04
+GOLD 15.57 2.44
+D1* -16.56 -2.78
+Adj. R-squared 0.87
+Number of 
+observations
+38 after 
+adjustment  
+* D1 is the crisis dummy that takes a value of 
+1 in the third quarter of 2008.
+Note: The residual of the above equation is 
+stationary process, thus these variables have 
+long-run relationship or cointegration with 
+the FDI inflows.
+* The real interest rate differential was I(1) 
+process, thus we include it in the equation as 
+an exogenous variable.
+Note: 
+1 Standard errors in ( ) & t-statistics 
+in [ ]
+2 According to the Trace test of Johansen 
+cointegration, it has 1 cointegrating eqn(s) 
+at the 0.05 level.
+---PAGE---
+330
+Монголбанк   Судалгааны ажил “Товхимол-11”
+Table 4 shows brief results of the estimations that we executed and some 
+estimation outputs are shown in Table 5. As a small economy, Mongolia 
+is unable to influence in the international commodity prices and mature 
+economy interest rates, thus, those indicators are illustrated as an exogenous 
+variables in the VECM. The Johansen cointegration technique is used to 
+determine the number of cointegrating vectors in a VECM framework. The 
+trace test is used in this respect and the trace test indicates presence of one 
+cointegrating equation at the 5 percent significance level. On the other hand, 
+residual of the OLS estimation was stationary from which we can conclude 
+there is cointegration. The results of two model estimates are consistent with 
+each other and the estimates satisfy the summary statistics and diagnostic 
+tests. The residual tests show that there is no significant serial correlation and 
+heteroscedasticity in the residuals. Recursive estimation (CUSUM test and 
+CUSUM of Squares test) of the OLS model also suggests that the regression 
+coefficients are stable over the sample period. This implies that the OLS 
+estimation is stable.
+The result approves that the FDI inflows in Mongolia is only one source 
+of the sustainable and volatile flows. Furthermore, Granger causality test 
+shows that the commodity prices affects the domestic GDP growth, and we 
+remove the indicator of domestic GDP growth from the pool of determinant 
+variables in order to avoid multicollinearity. In this paper, we also propose to 
+analyze the importance of the commodity prices for capital flows volatility in 
+Mongolia. In below, we mention about all the push and pull factors in detail 
+and separately.
+Push Factors of the FDI
+Since the U.S. GDP growth rate is usually used as an indicator of the 
+advanced economy output growth (Hernández, 2015) and the VIX
+61 is used 
+as an indicator of global risk aversion, we applied these indicators to our 
+estimation as push factors to the FDI. However, we find no clear relationships 
+of the global risk aversion and advanced economy growth with Mongolian 
+FDI inflows, which is similar result with the illustration of Koepke (2015) 
+obtained by over 40 empirical studies of the EMEs. In addition, our 
+estimation suggests that China’s GDP growth affects negatively to the FDI, 
+which is theoretically insignificant, thus we eliminated this variable from the 
+equation.
+61 See Forbes and Warnock (2012), Byrne and Fiess (2011), etc.
+---PAGE---
+331
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+We find that prices of copper, coal, and gold which are main export 
+commodities of Mongolia are the most important determinants of the FDI 
+inflows, and impact positively. Ghosh and Qureshi (2012) also considers 
+commodity price as a global factor for capital flow surges and concludes that 
+a positive shock to the commodity price index raises the surge probability 
+by about seven percent, however, commodity price booms have statistically 
+insignificant effect. The surge in commodity price support the large FDI 
+inflows to the extractive sector in many African countries (Rangasamy & 
+Mihaljek, 2011). Additionally, Bastourre et al. (2012) suggests that increase 
+in commodity price has an effect on the availability of external financing in 
+EMEs that rely strongly on commodities.
+Mongolia is highly dependent on exports revenue
+62 in which the mining 
+exports (copper, coal, gold, crude oil, iron ore, zinc, etc.) constantly make up 
+about 90 percent of its total exports. The mining commodities of Mongolia 
+are also comparatively competitive due to low costs, high quality and short 
+distance to the Chinese markets, which attracts massive foreign investments 
+into the sector. Furthermore, high growth performance of Mongolia fueled 
+by strong commodity prices increases the investment even further. The GDP 
+growth was on average 12.0 percent in the periods of commodity price surge 
+in between 2010–12, but it decreased to 9.7 percent during 2013–14 when the 
+prices declined significantly.
+Figure 5. FDI Inflows and Commodity Prices
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+13 
+ 
+average 12 .0 percent in the period s of commodity price surge in between 2010 –12, but it 
+decreased to 9.7 percent during 2013–14 when the prices declined significantly. 
+ 
+Figure 5 
+FDI Inflows and Commodity Prices 
+ 
+Source:    authors’ illustration 
+ 
+In contrast, sharp declines in the commodity prices  resulted by weak demand for 
+commodities in the world economy following China’s economic slowdown since the second 
+half of 2012 also led to decrease the capital inflows of Mongolia . Between mid –2012 and 
+mid–2015, the r efined copper price at the London Metal Exchange  and Mongolian border 
+price of coking coal fell by over 26 and 57 percent, respectively, when the copper and coal 
+exports make up 50 percent of Mongolia’s total exports. Combined with  the lack of export 
+diversification that China accounts alone for 90 percent of Mongolia’s total  export, the drop 
+of the prices also reflected  to the significant decline in GDP growth. Thus, we suggest that 
+the main push factors of the FDI inflow were the copper, coking coal and gold prices. 
+Pull Factors of the FDI 
+As a result of the econometric estimation , a measure of country risk ( government external 
+debt-to-GDP ratio )14 and real interest rate differential (domestic rates minus foreign rates) 
+found to be statistically significant  for the FDI changes in  Mongolia, affecting the debt to 
+GDP ratio negatively while the interest rate differential positively.  Ahmed and Zlate (2013), 
+Suttle, Huefner and Koepke (2013), Kabadayi et al. (2012) and Fratzscher (2012) suggest 
+similar results for EMEs. IMF (2015b) points out that the expected interest rate hike in the 
+U.S. economy might attract more capital flows from EMEs. 
+ 
+ 
+ 
+ 
+                                                 
+14 For the papers that consider government external debt -to-GDP ratio as a country risk pull factor, see Brana and Lahet 
+(2008), etc. 
+0,0
+0,5
+1,0
+1,5
+2,0
+-20
+0
+20
+40
+60
+2006Q1
+2007Q1
+2008Q1
+2009Q1
+2010Q1
+2011Q1
+2012Q1
+2013Q1
+2014Q1
+2015Q1
+2012.12=100
+share of GDP, seasonally adjusted
+FDI inflows (LHS)
+Copper price
+Coal price
+Gold price
+Source: authors’ illustration
+62 In Mongolia, the average share of exports of goods in GDP was about 40 percent for the 
+last decade.
+---PAGE---
+332
+Монголбанк   Судалгааны ажил “Товхимол-11”
+In contrast, sharp declines in the commodity prices resulted by weak 
+demand for commodities in the world economy following China’s economic 
+slowdown since the second half of 2012 also led to decrease the capital 
+inflows of Mongolia. Between mid–2012 and mid–2015, the refined copper 
+price at the London Metal Exchange and Mongolian border price of coking 
+coal fell by over 26 and 57 percent, respectively, when the copper and coal 
+exports make up 50 percent of Mongolia’s total exports. Combined with the 
+lack of export diversification that China accounts alone for 90 percent of 
+Mongolia’s total export, the drop of the prices also reflected to the significant 
+decline in GDP growth. Thus, we suggest that the main push factors of the 
+FDI inflow were the copper, coking coal and gold prices.
+Pull Factors of the FDI
+As a result of the econometric estimation, a measure of country risk 
+(government external debt-to-GDP ratio) 63 and real interest rate differential 
+(domestic rates minus foreign rates) found to be statistically significant for the 
+FDI changes in Mongolia, affecting the debt to GDP ratio negatively while the 
+interest rate differential positively. Ahmed and Zlate (2013), Suttle, Huefner 
+and Koepke (2013), Kabadayi et al. (2012) and Fratzscher (2012) suggest 
+similar results for EMEs. IMF (2015b) points out that the expected interest 
+rate hike in the U.S. economy might attract more capital flows from EMEs.
+Figure 6. Mongolia: FDI Inflows and Pull Factors
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+14 
+ 
+Figure 6 
+Mongolia: FDI Inflows and Pull Factors 
+  
+Source:    authors’ illustration 
+3 CONSEquENCES AND POL ICY CHALLENGES OF CAPITAL FLOWS 
+VOLATILITY IN MONGOLIA 
+Poorly managed l arge capital inflows can expose three main risks to capital-recipient 
+countries. firstly, macroeconomic risk  where the c apital inflows can accelerate domestic 
+credit growth, overheat domestic economy, increase inflation pressure and cause real 
+exchange rate appreciation, affecting the macroeconomic performance s in a way not 
+consistent or compatible with domestic policy objectives , such as , sustainable economic 
+growth with price stability. The second  risk is financial instability.  The capital inflows can 
+create maturity and currency mismatches in the balance sheets of commercial banks and 
+private corporations. In addition, massive capital inflows push up equity and other asset 
+prices and able to reduce the quality of the assets, th ereby establishing a greater financial 
+fragility. The third risk is related to the  capital flow of sudden stops and reversals. Capital 
+inflows can stop suddenly or even reverse within a short period, resulting in depleted reserves 
+or sharp currency depreciation (Kawai & Takagi, 2010). 
+ 
+There are also common impacts of  the capital surges in EMEs, such as, deterioration of the 
+current account, widening of fiscal deficits, appreciation of real exchange rate, and 
+inflationary pressure (Claessens & Ghosh, 2013) . Thus, the volatile capital flow s encourage 
+domestic cycle s and contribute s to macroeconomic vulnerabilities  through overheating 
+pressures. However, composition and size of the ca pital inflows and their impacts on the 
+domestic economy and financial systems are influenced by  financial market development  
+(Rangasamy & Mihaljek, 2011). 
+ 
+Mongolia is a country which has less  developed financial markets . Therefore, the capital 
+inflows come to  Mongolia, mainly in the form of FDI which affects the  economy directly 
+through investment and increases output and hardly transfer s through financial system. In 
+addition, macroeconomic consequences of the recent capital inflows in Mongolia have been 
+highly affected by the macroeconomic policies implemented in the recent years. 
+0,0
+0,1
+0,2
+0,3
+0,4
+0,5
+-20
+0
+20
+40
+60
+80
+2006Q1
+2007Q1
+2008Q1
+2009Q1
+2010Q1
+2011Q1
+2012Q1
+2013Q1
+2014Q1
+2015Q1
+share of GDP, seasonally adjusted
+FDI inflows and Govt. external debt/GDP
+FDI inflows (LHS)
+Govt. external debt/GDP
+-20
+-10
+0
+10
+20
+30
+-20
+0
+20
+40
+60
+80
+2006Q1
+2007Q1
+2008Q1
+2009Q1
+2010Q1
+2011Q1
+2012Q1
+2013Q1
+2014Q1
+2015Q1
+domestic rate minus foreign rate
+share of GDP, seasonally adjusted
+FDI inflows and Real interest rate differential
+FDI inflows (LHS)
+Real interest rate differential
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+14 
+ 
+Figure 6 
+Mongolia: FDI Inflows and Pull Factors 
+  
+Source:    authors’ illustration 
+3 CONSEquENCES AND POL ICY CHALLENGES OF CAPITAL FLOWS 
+VOLATILITY IN MONGOLIA 
+Poorly managed l arge capital inflows can expose three main risks to capital-recipient 
+countries. firstly, macroeconomic risk  where the c apital inflows can accelerate domestic 
+credit growth, overheat domestic economy, increase inflation pressure and cause real 
+exchange rate appreciation, affecting the macroeconomic performance s in a way not 
+consistent or compatible with domestic policy objectives , such as , sustainable economic 
+growth with price stability. The second  risk is financial instability.  The capital inflows can 
+create maturity and currency mismatches in the balance sheets of commercial banks and 
+private corporations. In addition, massive capital inflows push up equity and other asset 
+prices and able to reduce the quality of the assets, th ereby establishing a greater financial 
+fragility. The third risk is related to the  capital flow of sudden stops and reversals. Capital 
+inflows can stop suddenly or even reverse within a short period, resulting in depleted reserves 
+or sharp currency depreciation (Kawai & Takagi, 2010). 
+ 
+There are also common impacts of  the capital surges in EMEs, such as, deterioration of the 
+current account, widening of fiscal deficits, appreciation of real exchange rate, and 
+inflationary pressure (Claessens & Ghosh, 2013) . Thus, the volatile capital flow s encourage 
+domestic cycle s and contribute s to macroeconomic vulnerabilities  through overheating 
+pressures. However, composition and size of the ca pital inflows and their impacts on the 
+domestic economy and financial systems are influenced by  financial market development  
+(Rangasamy & Mihaljek, 2011). 
+ 
+Mongolia is a country which has less  developed financial markets . Therefore, the capital 
+inflows come to  Mongolia, mainly in the form of FDI which affects the  economy directly 
+through investment and increases output and hardly transfer s through financial system. In 
+addition, macroeconomic consequences of the recent capital inflows in Mongolia have been 
+highly affected by the macroeconomic policies implemented in the recent years. 
+0,0
+0,1
+0,2
+0,3
+0,4
+0,5
+-20
+0
+20
+40
+60
+80
+2006Q1
+2007Q1
+2008Q1
+2009Q1
+2010Q1
+2011Q1
+2012Q1
+2013Q1
+2014Q1
+2015Q1
+share of GDP, seasonally adjusted
+FDI inflows and Govt. external debt/GDP
+FDI inflows (LHS)
+Govt. external debt/GDP
+-20
+-10
+0
+10
+20
+30
+-20
+0
+20
+40
+60
+80
+2006Q1
+2007Q1
+2008Q1
+2009Q1
+2010Q1
+2011Q1
+2012Q1
+2013Q1
+2014Q1
+2015Q1
+domestic rate minus foreign rate
+share of GDP, seasonally adjusted
+FDI inflows and Real interest rate differential
+FDI inflows (LHS)
+Real interest rate differential
+Source: authors’ illustration
+63 For the papers that consider government external debt-to-GDP ratio as a country risk pull factor, 
+see Brana and Lahet (2008), etc.
+---PAGE---
+333
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+III. CONSEquENCES  AND POLICY  CHALLENGES  OF 
+CAPITAL  FLOWS  VOLATILITY  IN MONGOLIA
+Poorly managed large capital inflows can expose three main risks to capital-
+recipient countries. firstly, macroeconomic risk where the capital inflows 
+can accelerate domestic credit growth, overheat domestic economy, increase 
+inflation pressure and cause real exchange rate appreciation, affecting the 
+macroeconomic performances in a way not consistent or compatible with 
+domestic policy objectives, such as, sustainable economic growth with price 
+stability. The second risk is financial instability. The capital inflows can 
+create maturity and currency mismatches in the balance sheets of commercial 
+banks and private corporations. In addition, massive capital inflows push 
+up equity and other asset prices and able to reduce the quality of the assets, 
+thereby establishing a greater financial fragility. The third risk is related to the 
+capital flow of sudden stops and reversals. Capital inflows can stop suddenly 
+or even reverse within a short period, resulting in depleted reserves or sharp 
+currency depreciation (Kawai & Takagi, 2010).
+There are also common impacts of the capital surges in EMEs, such as, 
+deterioration of the current account, widening of fiscal deficits, appreciation 
+of real exchange rate, and inflationary pressure (Claessens & Ghosh, 2013). 
+Thus, the volatile capital flows encourage domestic cycles and contributes 
+to macroeconomic vulnerabilities through overheating pressures. However, 
+composition and size of the capital inflows and their impacts on the 
+domestic economy and financial systems are influenced by financial market 
+development (Rangasamy & Mihaljek, 2011).
+Mongolia is a country which has less developed financial markets. Therefore, 
+the capital inflows come to Mongolia, mainly in the form of FDI which 
+affects the economy directly through investment and increases output and 
+hardly transfers through financial system. In addition, macroeconomic 
+consequences of the recent capital inflows in Mongolia have been highly 
+affected by the macroeconomic policies implemented in the recent years.
+3.1. Monetary and Exchange Rate Policy Challenges
+According to the Law of Mongolia, on the Central Bank (Bank of Mongolia–
+BoM), the main objective of monetary policy is to ensure the stability of the 
+national currency. At the same time, the law also states that the exchange rate 
+policy to follow the principles of keeping the exchange rate to be floating. 
+However, maintaining the price stability requires the BoM to intervene in the 
+---PAGE---
+334
+Монголбанк   Судалгааны ажил “Товхимол-11”
+domestic FX market in order to soften the pass-through effects of exchange 
+rates on inflation which is relatively high in Mongolia. Also it prevents from 
+high exchange rate fluctuations that can weaken the financial and real sectors. 
+The inflation rate is also highly vulnerable from supply shocks of several 
+consumer goods in Mongolia. Sudden shortfalls of domestic productions of 
+wheat and meat due to harsh weather or harmful disease and trade limits of 
+gasoline in main supplier countries creates high inflationary pressure in some 
+periods. Therefore, Mongolia has been experiencing high inflation rate in the 
+past years. It was about 9.6% on average between 2001 and 2008 reaching 
+to the highest level of 23.2%. Although the inflation dropped to 2.0 percent 
+in 2009, it has increased back to 14.3% in the following year and reached 
+12.0% on average between the periods of 2010–14. For the exchange rate, 
+the nominal exchange rate tends to depreciate over the time since foreign 
+exchange demand has been continuously increasing for residents. However, 
+the real exchange rate is likely to appreciate due to the high domestic 
+inflation rate. The real effective exchange rate (REER) appreciated by 7 
+percent annually during 2001–08 while it has dropped to 2 percent during 
+2010-14 because of the high nominal depreciation.
+The recent volatile capital flows have been having a number of implications 
+on the monetary policies. During the capital inflow surges, the BoM decided 
+to buy the foreign exchanges in order to prevent large nominal appreciations 
+which could be harmful for domestic industries at its early stages and build-
+up foreign reserves by the excess foreign exchanges in the FX market. 
+However, the BoM faced a challenge to ensure low and stable inflation 
+when the excess liquidities in domestic and foreign currencies accumulated 
+in the banking sector. Therefore, the BOM conducted offsetting open market 
+operations to sterilize the interventions in the period. As a result, the reserves 
+increased from 8.0 months of goods imports to 9.8 months of goods imports 
+and the nominal exchange rate appreciated by 26 percent between 2009 and 
+2012.
+However, the FX interventions and sterilizations highly affects to balance 
+sheets of the Central bank and at the same time, it allows the build-up of 
+large excess liquidity in the banking sector in light of concerns about the 
+large sterilization costs and/or weak capital positions of the BOM. The 
+expansionary fiscal policies in this period weakened the condition even 
+further. Therefore, the BoM tightened its policy by increasing its policy rate 
+by 2.25 percentage point to 13.25 and reserve requirement from 5 percent to 
+12 percent in the period between 2010 and 2012.
+---PAGE---
+335
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+Furthermore, the BOM faced more challenges during the sudden stops and 
+reversals of the capital inflows regarding high BOP deficits, large nominal 
+depreciation, inflationary pressure, significant decline of international 
+reserves, worsening financial stability induced from asset price drops and 
+liquidity shortage in banking sector. Since the banking sector liquidity 
+shortage causes the financial instability and real economy to lead to economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote 
+the real economy, keep the employment, mitigate the sudden impacts of 
+declining FDI and boost the credit growth. Thus, the BoM softened its policy 
+in 2013 by cutting its policy rate three times by a total of 2.75 basis points 
+to 10.5 percent; and also provided substantial loans to commercial banks 
+at below-market rates through the “Price Stabilization Program (PSP)” and 
+“Mortgage Lending Program”.
+Figure 7. Mongolia: Monetary and Exchange Rate Policy
+at the end of Aug, 2015
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+LIVING WITH VOLATILITIES: CAPITAL FLOWS AND IMPLICATIONS FOR CENTRAL 
+BANK POLICIES IN MONGOLIA 
+16 
+ 
+pressure, significant dec line of international reserves , worsening financial stability induced 
+from asset price drops and  liquidity shortage in banking sector . Since the banking sector  
+liquidity shortage  causes the financial instability and  real economy to lead to  economic 
+slowdown and unemployment, the Mongolia’s authority needed to promote the real economy, 
+keep the employment , mitigate the sudden impacts of  declining FDI and boost the  credit 
+growth. Thus, the BoM softened its policy in 2013 by cutting its policy rate three times by a 
+total of 2.75 basis points to 10.5 percent; and also provided substantial loans to commercial 
+banks at below-market rates through the “Price Stabilization Program (PSP)” and “Mortgage 
+Lending Program”. 
+ 
+Figure 7 
+Mongolia: Monetary and Exchange Rate Policy 
+at the end of Aug, 2015 
+   
+   
+Note:    1 Supply shock inflation includes the prices of meat, petroleum and cement (Figure 7(a)). 
+2 Both foreign currency injections through auction and non-auction instruments are included in the FX intervention in Figure 7(e). 
+Source:    Bank of Mongolia 
+In addition, the negative shocks to both FDI and commodity prices have weakened the 
+balance of payments of Mongolia substantially, thus, the exchange rate depreciated 
+significantly since the second half of 2012. The balance of payments pressure also 
+compounded with the expansionary monetary and fiscal policies of the period that 
+encouraged the imports into economy and worsened the conditions. As a result, the exchange 
+-5%
+5%
+15%
+25%
+35%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(a) Consumer Price Inflation
+(2000.01=100)
+Supply shock inflation
+Other goods' inflation
+1,2
+1,4
+1,6
+1,8
+2,0
+0,5
+0,6
+0,7
+0,8
+0,9
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(b) NEER and REER
+(2000.01=100)
+NEER
+REER (RHS)
+Depreciation
+Appreciation
+8,0
+10,0
+12,0
+14,0
+16,0
+18,0
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(c) Policy rate and CBB rate
+percent
+Policy rate
+CBB rate
+-20%
+0%
+20%
+40%
+60%
+80%
+100%
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(d) M2 and Credit growth
+YoY, percent
+M2 growth
+Credit growth
+-1 000
+0
+1 000
+2 000
+3 000
+4 000
+0
+400
+800
+1 200
+1 600
+2 000
+2009 2011 2013 M8
+2015
+(e) Fx Intervention and CBB 
+Outstanding
+CBB outstanding (bln
+MNT)
+FX Intervention (mln
+USD, RHS)
+0
+3
+6
+9
+12
+15
+1 000
+2 000
+3 000
+4 000
+5 000
+2008M1
+2009M1
+2010M1
+2011M1
+2012M1
+2013M1
+2014M1
+2015M1
+(f) International Reserves
+US$ million
+Official FX reserves (LHS)
+Import coverage (months)
+Note: 1 Supply shock inflation includes the prices of meat, petroleum and cement 
+(Figure 7(a)).
+2 Both foreign currency injections through auction and non-auction instruments are 
+included in the FX intervention in Figure 7(e).
+Source: Bank of Mongolia
+---PAGE---
+336
+Монголбанк   Судалгааны ажил “Товхимол-11”
+In addition, the negative shocks to both FDI and commodity prices have 
+weakened the balance of payments of Mongolia substantially, thus, the 
+exchange rate depreciated significantly since the second half of 2012. The 
+balance of payments pressure also compounded with the expansionary 
+monetary and fiscal policies of the period that encouraged the imports 
+into economy and worsened the conditions. As a result, the exchange rate 
+depreciated by 12 percent and 19 percent against U.S. dollar in 2013 and 
+2014, respectively.
+The exchange rate depreciation created further challenges regarding inflation 
+pressure through the exchange rate pass-through effects since early 2013. 
+Although the inflation fell down to a two-year low level of 7 percent in July 
+2013 due to moderate food and gasoline prices as a result of the PSP, the 
+exchange rate depreciation started to push up the inflation again. Therefore, the 
+BoM sold foreign exchanges in the domestic FX market in order to smooth 
+the speed of exchange rate depreciation, prevent short-term imbalances of 
+supply and demand of foreign exchanges in the domestic FX market, and 
+correct market expectations about the exchange rate. As a result of continuous 
+intervention in the FX market, the gross international reserves subsequently 
+fell down by $2.5 billion between 2012 and the first half of 2015.
+When the economy had the substantial negative external shocks, the 
+sufficient international reserve was crucial to mitigate negative risks of the 
+shocks in the economy. Thus, BOM built-up the official foreign reserves 
+in the recent years in several ways. Besides, the interventions, the foreign 
+exchange sources of Sovereign bonds and Samurai bonds were managed 
+by the Central bank in its functions of reserve management. Additionally, 
+in order to provide short-term liquidity in the domestic FX market and to 
+promote the bilateral trade with China, the BoM signed “Bilateral Currency 
+Swap Arrangement between the People’s Bank of China and the Bank of 
+Mongolia” in May 2011. The maximum amount of it was RMB5 billion, but 
+it has increased to RMB15 billion during 2011–14.
+3.2. Macroprudential Policy Challenges
+The volatile capital flows also weakened financial stability of Mongolia. 
+Procyclical systemic risks through financial linkages has been rising through 
+the fiscal, export, credit and housing channels, given the strong cross-border 
+capital inflows in the form of the FDI and the rapid increase in the domestic 
+intermediation of the capital flows (Maino, Imam, & Ojima, 2013). Fueled 
+by the loose fiscal policy alongside rising capital inflows has given a rise to 
+overheating pressures in Mongolia. Furthermore, the buoyant mineral exports 
+---PAGE---
+337
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+triggered to achieve a high record of real GDP growth and contributes 
+to a positive output gap. Then, the general optimism in the market has led 
+banking sector to lend more freely during the surging period. When it 
+combined with easy access to foreign financing, it also created an upsurge in 
+the private sector loans that amplified the boom even further. Therefore, the 
+credit growth tended to be high as complacency regarding risk itself. Some 
+standard precautionary measures are no longer observed or are loosened.
+Housing has been playing a special role for macroeconomic policies in 
+Mongolia and it has been a major component of the credit channel risk. 
+During the good times, commercial banks competed by their loans with 
+each other and it led to generous mortgage borrowing in housing market 
+of Mongolia. Furthermore, Mongolia’s authorities were always eager to 
+stimulate housing market development over time due to the high pollution 
+problems in the capital city area. During the period of 2007–11, the volume 
+of mortgage lending and construction finance in the context of four programs 
+by the Government—“40,000 units”, “100,000 units”, “4,000 units” and 
+“Housing for Veterans”—accounted for 25 percent of total loan origination 
+and 30 percent of the unit construction in Mongolia (Milyutin, 2012). 
+Because of easy lending during the capital inflow surges period and the 
+promotional programs, housing demand increased significantly which also 
+led to boom in housing price. On the other side, banking liquidity shortage 
+during the capital inflow stop and reversal caused to decrease mortgage 
+loans which led the price to decrease because of surplus in housing markets. 
+Therefore, housing price in Mongolia has tended to be strongly correlated 
+with the capital inflows. We can state that the recent volatile capital flow had 
+a similar effect through the asset price volatility on the banking system which 
+led to further increase in the systemic risk.
+In conclusion, the procyclical fiscal policy, rising credit growth, asset price 
+boom, and heightened risk appetite of the banking sector during the capital 
+inflow surge have been posing the significant risks to financial stability of 
+Mongolia.
+Therefore, the BoM introduced several macro-prudential measures that 
+prevent from both procyclical and market risks in order to manage the 
+excessive short-term liquidity and mitigate its negative impacts on domestic 
+banking system. Some of them are listed below:
+• Increase in the liquidity ratio (18 to 25 percent in 2011)
+• Increase in the capital adequacy ratio (12 to 14 percent for 5 systemic 
+banks)
+---PAGE---
+338
+Монголбанк   Судалгааны ажил “Товхимол-11”
+• Limits on exposure concentration (not exceed 20 percent of the capital of 
+the bank)
+• Limits on net open currency positions (not exceed 15 percent of the 
+bank’s equity capital)
+• Limits on maturity mismatches
+• Setting a reserve requirement on all deposits
+• Reducing provisioning at the time of crisis
+In addition to these, the BoM has recently started to adopt some macro-
+prudential measures in order to promote private sector’s capital inflows 
+especially to the banking sector. In this purpose, the BoM has decided 
+to exempt new long-term loans and bonds with three or more years of 
+maturity drawn by commercial banks from the international market’s reserve 
+requirement. Furthermore, the BoM has introduced an instrument of the long 
+term swap with the central bank to hedge exchange rate risks of the banks’ 
+foreign loans and bond with one or more year maturity. The swaps eventually 
+reached a total of US$436 million by the end of 2014. Lastly, the BoM has 
+increased the risk weight of the loans denominated in foreign currency in 
+order to lower the exchange rate risk of private firms and individuals since 
+the beginning of 2015.
+3.3. Fiscal Policy Challenges
+In addition to the monetary policy, the volatile capital flows have had 
+many implications for fiscal policy of Mongolia. The procyclical fiscal 
+policy driven by huge capital inflows led substantial fiscal expenditures and 
+therefore high fiscal deficits during the capital surges period and increased 
+the government debt in the sudden stops and reversal periods. With the 
+combination of the external imbalances which made real sector worse and 
+created an unsustainable economic growth path.
+When the capital flows fluctuated substantially, the procyclical fiscal policy 
+exacerbated the cyclical effects of the capital volatilities on the economy. 
+In the surges period, the budget revenue increased significantly through tax 
+income collected from the commodity exports, new projects’ activities in the 
+mining sector and investment goods imports financed by the FDI. However, 
+it has sharply dropped in line with the deterioration of the foreign trade and 
+FDI, as well as, economic slowdown during the sudden stops. The budget 
+revenue fluctuated from 32 percent of GDP in 2010–12 to 28 percent in 2014. 
+When the revenue started to expand substantially, the fiscal policy became 
+highly expansionary due to the coincidence with the government spending 
+---PAGE---
+339
+Living with volatilities: capital flows and implications for   Munkhchimeg Sukhee,
+Central bank policies in mongolia Tsenguunjav Byambasuren
+patterns in the year preceding the parliamentary election of 2012 and that 
+induced strong political business cycle. The direct cash distribution to the 
+households, one of the political promises bumps up the budget spending by 
+4 percent of GDP and the total spending has increased by nearly 5 percent 
+of GDP between 2010 and 2012. Furthermore, the Development Bank of 
+Mongolia, (DBM) financed a number of public infrastructure projects, such 
+as, local paved roads, railroads and industrial constructions on behalf of the 
+GoM. As a result, the total budget deficit (including DBM spending) has 
+increased to 10 percent of GDP (Figure 8).
+When the commodity price declined and FDI dropped, the fiscal deficit 
+were on high level where Government debt has increased significantly. 
+The elevated debt ratios also raised a market concern and risk profile of 
+the public debt became less favorable —credit rating agencies have been 
+downgraded Mongolia’s sovereign rating and its outlook several times since 
+the late 2012—and sovereign spreads of Mongolia has increased. In addition, 
+substantial refinancing risk has been emerged for Mongolia since the most of 
+the public sector debt is denominated in foreign currency. The external public 
+debt in nominal terms increased to 38 and 43 percent of GDP in 2013 and 
+2014 respectively compared to 2011 of 21 percent.
+The Parliament of Mongolia approved the Fiscal Stability Law (FSL) in 
+2010 for running countercyclical fiscal policy and offsetting long-term 
+adverse effects of commodity price volatility. The FSL spelled out the vital 
+fiscal rules that the structural budget deficit shall not exceed two percent 
+of the GDP and the public debt-to-GDP ratio in terms of net present value 
+(NPV) had to be at most 40 percent from 2013. For the fiscal year of 2013, 
+the budget deficit was less than the limit set out by the FSL; however, the 
+DBM spending was not included in the budget. Therefore, many public 
+projects were financed off-balance that had to be accounted to the budget 
+deficit. In 2014, Mongolia experienced huge budget revenue shortfall where 
+the deficit exceeded the legal limit that eventually resulted FSL amendment 
+for increasing deficit ceiling up to 4 percent in 2015. Consecutively, due 
+to a surpassing of the government debt ratio, the ceiling increased to 55 
+percent by the new amendment. Furthermore, by the FSL, the Government 
+of Mongolia founded the “Fiscal Stabilization Fund” in 2010 for 
+accumulating excess revenue from mining sector. Since the establishment, it 
+has reached 430 billion MNT (2 percent of GDP) by 2013. Unfortunately, 
+the Government had utilized the fund asset following the sharp decline in 
+commodity prices in 2014. In fact, due to the futile implementation of the 
+---PAGE---

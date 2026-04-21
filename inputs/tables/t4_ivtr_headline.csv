@@ -1,0 +1,13 @@
+Item,Value
+Optimal threshold gamma*,13 years
+beta_1 (educ <= gamma*),0.0533
+SE_1,(0.0272)
+Return per year (regime 1),5.5%
+beta_2 (educ > gamma*),0.1650
+SE_2,(0.0307)
+Return per year (regime 2),17.9%
+SupWald statistic,152.20
+Bootstrap p-value,0.0000
+N (regime 1),"6,144"
+N (regime 2),"5,876"
+N (total),"12,020"

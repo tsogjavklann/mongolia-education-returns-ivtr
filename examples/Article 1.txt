@@ -1,0 +1,438 @@
+Theoretical and Applied Economics
+Volume XVII (2010), No. 10(551), pp. 15-24
+
+    Financial Development and Economic Growth:
+                  A Panel Data Approach
+
+                                                                    Nuno Carlos LEITÃO
+                                  Polytechnic Institute of Santarém, ESGTS, Portugal
+
+                                                              nunocarlosleitao@gmail.com
+
+               Abstract. The relationship between financial development and
+       economic growth has been studied long time in economics (Adam Smith
+       and Schumpeter). Structural reforms and the integration of financial
+       markets have been attracting the interest of the academic community.
+
+               This manuscript examines the link between financial development
+       and economic growth. The European Union Countries (EU-27), and
+       BRIC (Brazil, Russia, India and China) were examined, between 1980
+       and 2006. Using a static and dynamic panel data approach, the results
+       demonstrate that the financial development contribute to economic
+       growth. Our study also consider productivity and trade, these proxies
+       confirm the positive effect on economic growth.
+
+              Keywords: economic growth; financial development; panel data
+       and globalization.
+
+       JEL Codes: C33, E44, O16.
+       REL Codes: 8E, 11B.
+16                Nuno Carlos Leitão
+
+    Introduction
+
+       In the 1990´s emerged the empirical models that analyse the impact of
+financial sector on economic growth (King, Levine, 1993, Millner, 1998). This
+manuscript examines the link between financial development and economic
+growth. There are good reasons for studying this topic. In the 1980's we
+assisted financial reforms on OECD countries. International economics showed
+the rapid economic growth on Asian countries during the 1970s and 1980s. The
+domestic credit increased considerably as the result of financial reform. This
+study examines the link between financial development and economic growth
+using an unbalance panel data for the period 1980-2006. We select EU-27
+countries d BRIC countries (Brazil- Russia, India and China).
+
+       In static panel data models, Pooled OLS, fixed effects (FE) and random-
+effects (RE) are used. The RE estimator was excluded because our sample is
+not random. Furthermore, the Hausman test rejects the null hypothesis RE
+versus FE. Therefore, the regression coefficients are estimated using fixed
+effects. The results presented in this paper are consistent with the predictions of
+financial sector development affect economic growth. We also decided to
+introduce a dynamic panel data. This methodology is most frequently used in
+the growth literature (GMM-SYS). The estimator used GMM-System permits
+the researchers to solve the problems of serial correlation, heteroskedasticity
+and endogeneity of some explanatory variables. These econometric problems
+were resolved by Arellano and Bond (1991), and Blundell and Bond (1998,
+2000). To estimate the dynamic model, we applied the methodology of Blundell
+and Bond (1998, 2000). The remainder of the article is organized as follows:
+section 2 presents the theoretical background; section 3 explains the
+relationship between financial development and economic growth; section 4
+presents the econometrical model; section 5 shows the estimation results, the
+final section provides conclusions.
+
+       Literature review and empirical studies
+
+       In this section we present a survey of theoretical and empirical models of
+financial development and economic growth. When we consider the
+relationships between financial development and economic growth we need to
+consider different opinions (Levine, 2003). There are not consensuses in the
+literature. According to Levine (1997) the financial development could be
+Financial Development and Economic Growth: A Panel Data Approach       17
+
+explained by the access to credit and financial services. The classical models as
+in Schumpeter (1912) have the similar opinion. Schumpeter (1912) defended
+that financial development accelerates growth. In 2005, Levine refers a relevant
+consideration. The economy, i.e the market gives information about investment
+projects, risk diversification and international trade. Other points of view have
+Robinson (1952), Millner (1998), and Lucas (1988). Robinson considers that
+financial development simplifies the "channels" of economic growth. Millner
+(1998) refers that financial markets promote the economic growth, but it will be
+necessary to consider others explanatory variables. In other words, the financial
+development is endogenous across to real growth. Lucas (1988) has the similar
+opinion. Goldsmith (1969) and Mckinnon (1973) consider a positive correlation
+between economic growth and financial development. La Porta et al. (1998)
+and Levine et al. (2000) measure the impact of financial development on
+economic growth. The authors also found a positive correlation.
+
+       Levine et al. (2000) and Beck et al. (2000) explain the correlation
+between financial development and economic growth, with finance ­
+endogeneity proxies. Levine et al. (2000), and Beck et al. (2000) introduced an
+excellent contribution; these authors create new instruments variables to
+financial development and apply a dynamic panel data approach, GMM
+estimator. Levine et al. (2000) analyse the correlation between financial
+intermediation and growth. Beck et al. (2000) study the link between financial
+development and the sources of growth as in productivity, physical capital, and
+savings.
+
+       La Porta et al. (1998) introduced the legal origin as instruments variables.
+The study of Neusser and Kugler (1998 applied to OECD countries for the
+period 1960-1993) does not support the idea that financial development could
+explain economic growth.
+
+Modeling finance development and economic growth
+
+       We consider that economic growth (Levine, 1997, Beck et al., 2000, and
+Levine et al., 2000) is equal to:
+
+Growthit = f (CREDIT , BANK, IPC,TRADE, PROD)                     (1)
+
+f / CREDIT > 0, f / BANK f 0, f / IPC <                           (2)
+
+< 0, f / TRADE > 0, f / PROD f 0
+18                                                  Nuno Carlos Leitão
+
+where:
+       Growth is the growth rate of real GDP;
+       CREDIT is the private credit;
+       BANK is the deposit money banks;
+       IPC is the consumer price;
+       TRADE is the ratio of exports plus imports;
+       PROD is the productivity.
+
+       Econometrical model
+
+       Following the literature our study applies a static panel data (Fixed
+Effects), and a dynamic panel data (GMM-SYS). The dependent variable used
+is economic growth; this variable is measured as growth rate of real GDP per
+capita in country. The data for explanatory variables is sourced from the World
+Development Indicators (2009). The source used for dependent variable was
+World Bank.
+
+       Explanatory variables
+       Hypothesis 1: Financial development stimulates the economic growth.
+       We use two indicators of financial development: private credit (CREDIT),
+and commercial ­ central bank (BANK).
+       LogCREDIT is ratio of total credit to GDP, i.e. credit by deposit money
+banks and other financial institutions to private sector divided by GDP in
+logarithm form.
+       LogBANK is the logarithm of assets of deposit money banks divided by
+assets of deposit money banks plus central bank assets. According to the
+literature (Blanchard, 1981, Levine, 2003) we expected a positive sign.
+
+       Hypothesis 2: International trade and productivity promote the economic
+growth.
+
+       We use two proxies: TRADE and productivity (PROD):
+       LogTRADE is the ratio of total trade to GDP in logarithm form;
+       LogPROD is value added by the employer. Levine (1997) suggested that
+financial development promotes economic growth via international trade and
+productivity. Beck et al. (2000) also analyze the relationship between financial
+Financial Development and Economic Growth: A Panel Data Approach  19
+
+development and productivity. According to the literature there is a positive
+correlation between international trade and economic growth. The same is
+validating between productivity and economic growth.
+
+       Hypothesis 3: Macroeconomic stability (instability) encourages
+(discourage) the economic growth.
+
+       We consider the ICP (consumer price): This is a control variable as
+measure of macroeconomic stability or instability. The expected sign is
+negative.
+
+       Static and dynamic panel data models
+
+       Model [1]
+
+       Growthit =  0 + 1 (CREDIT )it +  2 (ICP)it + 3 (TRADE )it +
+                   +  4 (PROD)it + t + i +  it
+
+       Where Growth it is either per capita GDP growth, X is a set of
+explanatory variables. All variables are in the logarithm form; it is the
+unobserved time-invariant specific effects; t captures a common deterministic
+trend;  it is a random disturbance assumed to be normal, and identically
+distributed (IID) with E (  it )=0; Var (  it ) = 2 f 0 .
+
+       The model can be rewritten in the following dynamic representation:
+
+       Growthit = Growthit-1 + 1 (CREDIT )it - 1 (CREDIT )it-1 +
+                  +  2 (ICP)it -  2 (ICP)it + 3 (TRADE) -
+                  - 3 (TRADE)it +  4 (PROD)it -  (PROD)it + t + i +  it
+
+       Model [2]
+
+       Growthit = 0 + 1 (BANK )it +  2 (ICP)it + 3 (TRADE)it +
+                   +  4 (PROD)it + t + i +  it
+20                                                      Nuno Carlos Leitão
+
+    The model can be rewritten in the following dynamic representation:
+
+    Growthit = Growthit-1 + 1 (BANK )it - 1 (BANK )it-1 +
+    +  2 (ICP)it -  2 (ICP)it + 3 (TRADE)it -
+    - 3 (TRADE)it +  4 (PROD)it -  (PROD)it + t + i +  it .
+
+         Analysis of the static panel data estimations
+
+    In Table 1, the two equations of the growth can be observed. With the first
+
+model, all explanatory variables are significant (LogCREDIT, LogTRADE, and
+
+LogPROD at 1% level and LogIPC at 10% level). The variable total credit
+
+(LogCREDIT) presents a positive sign, confirming the theoretical forecast
+
+proposed by Levine (2005).
+
+                                                                                     Table 1
+
+               Financial development and economic growth: fixed effects
+
+    Variables  Model [1]           Model [2]            Expected Sign
+
+LogCREDIT      0.342 (2.96)***                                                  (+)
+
+LogBANK                            0.087 (1.20)                                 (+)
+
+LogIPC         -0.026 (-1.85)*     -0.034 (-2.75)***                            (-)
+
+LogTRADE       2.06 (4.01)***      1.759 (3.79)***                              (+)
+
+LogPROD        0.650 (4.71)***     0.857 (4.64)***                              (+)
+
+Adj. R2                     0.305  0.253
+
+Observations                491    491
+
+    T-statistics (heteroskedasticity corrected) are in round brackets.
+    ***/**- statistically significant, respectively at the 1%, and 10% levels.
+
+       Vaona (2007) also found a positive sign. The coefficient of consumer
+price analyses the level of inflation. This indicator affects GDP growth
+negatively. Our result supports this hypothesis. We also introduced the
+variables, international trade (TRADE), and productivity (PROD). Levine
+(1997), Beck et al. (2000) suggested that financial development promotes
+economic growth via international trade and productivity. A positive sign effect
+of international trade (TRADE), and productivity (PROD) were expected and
+the results confirm this. With the second model, the equation presents three
+significant variables (LogICP, LogTRADE, LogPROD).
+
+       Other considerations relating to the second equation:
+       i) ICP (consumer price): This is a control variable as measure of
+macroeconomic instability. The expected sign is negative and the estimated
+coefficient is negative;
+Financial Development and Economic Growth: A Panel Data Approach  21
+
+       ii) TRADE: We expected a positive impact on growth and the coefficient
+is positive;
+
+       iii) PROD (Productivity): The expected sign is positive, which is
+confirmed by the estimation.
+
+       Analysis of the dynamic panel data estimations
+
+       It is usual in the growth literature apply the GMM-System (Blundell and
+Bond 1998, 2000). The validity of instruments is tested using a Sargan test of
+over-identifying restrictions and serial correlation. First-order and second-order
+serial correlation in the first-differenced residuals is test using m1 and m2
+statistics (Arellano, Bond, 1991). The GMM system estimator is consistent if
+there is no second-order serial correlation in the residuals (m2 statistics).
+
+       The dynamic panel data is valid if the estimator is consistent. We used the
+criterion of Windmeijer (2005) small sample correction to have consistent stand
+errors. As shown in Table 2, the two equations present consistent estimates,
+with no serial correlation for the GMM-SYS estimator (m1, m2, and statistics).
+The specification Sargan test shows that there are no problems with the validity
+of the instruments used for both equations. The instruments in levels used are
+LogCREDIT(2,7), LogGDP(2,7), LogTRADE (2,7) for first differences. For
+levels equations, the instruments are used first differences all variables lagged t-1.
+
+       The equation [1] presents seven significant variables: (LogGrowtht-1,
+LogCREDIT, LogCREDITt-1, LogTRADE, LogTRADEt-1, LogPROD,
+LogPRODt-1). The equation [2] presents nine significant variables
+(LogGrowtht-1, LogBANK LogBANKt-1, LogICP, LogICPt-1, LogTRADE,
+LogTRADEt-1, LogPROD, LogPRODt-1).
+
+       Other results relating to the financial development and economic growth:
+       i) Lagged dependent variable (LogGrowtht-1): a positive sign was
+expected and the results confirm this;
+       ii) Private credit (CREDIT), and lagged credit (LogCREDITt-1): the
+expected signs are positive, which is confirmed by the estimations;
+       iii) Bank (BANK), and lagged BANK (LogBANKt-1): the expected sign is
+positive, and the coefficients of these variables are significantly but with
+contradictory sign;
+       ICP (consumer price), and lagged ICP (ICPt-1): the expected sign is
+negative, and the coefficients of these variables are positive;
+22                                                                        Nuno Carlos Leitão
+
+       iv) Trade (LogTRADE) and lagged trade (LogTRADEt-1): the expected
+sign is positive and the results confirm this;
+
+       v) Productivity (LogPROD) and lagged variable (LogPRODt-1) are
+according to the hypothesis formulated.
+
+                                                                               Table 2
+
+               Financial development and economic growth: GMM-SYS
+
+    Variables  Model [1]                                  Model [2]       Expected Sign
+
+LogGrowtht-1   0.322 (12.7)***  0.304 (4.04)***                           (+)
+LogCREDIT
+               0.146 (9.19)***                                            (+)
+
+LogCREDITt-1   0.127 (7.95)***
+LogBANK
+                                -0.157 (-11.5)***                         (+)
+
+LogBANKt-1                      -0.141 (-6.53)***
+LogIPC
+               0.0589 (1.11)    0.214 (3.26)***                           (-)
+
+LogIPCt-1      0.095(1.34)      0.339 (3.63)***
+LogTRADE
+               0.108 (3.89)***  0.096 (12.0)***                           (+)
+
+LogTRADEt-1    0.081 (2.93)***  0.100 (6.78)***
+LogPROD
+               0.098 (4.73)***  0.170 (16.6)***                           (+)
+
+LogPRODt-1     0.090 (4.65)***  0.148 (9.10)***
+C               0.002(0.179)    -0.032 (-3.77)***
+
+M1             0.2795 [0.780]                             -1.050 [0.294]
+
+M2             -0.2555 [0.798]  0.02580 [0.979]
+
+Wjs            485.8 [0.000]                              539.2 [0.000]
+Sargan              Df=9                                      Df=9
+Observations
+               -3.302 [1.000]                             -2.439 [1.000]
+                  Df=521                                     Df=521
+                    462                                        462
+
+Individuals    24                                         24
+
+         T-statistics (heteroskedasticity corrected) are in round brackets. The null hypothesis that
+each coefficient is equal to zero is tested using second-step robust standard error. T-statistics
+(heteroskedasticity corrected) are in round brackets.
+
+        *** indicates statistically significance, respectively at the 1% level. P-values are in
+square brackets. Year dummies are included in all specifications (this is equivalent to
+transforming the variables into deviations from time means, i.e. the mean across the fourteen
+countries for each period). M1 and M2 are tests for first-order and second-order serial
+correlation in the first-differenced residuals, asymptotically distributed as N (0, 1) under the
+null hypothesis of no serial correlation (based on the efficient two-step GMM estimator).
+
+Sargan is a test of the over-identifying restrictions, asymptotically distributed as  2 , under the
+
+null of instruments' validity (with two-step estimator).
+Financial Development and Economic Growth: A Panel Data Approach  23
+
+       Conclusions
+
+       The objective of this study was to analyze the link between financial
+development and economic growth. This relationship is stable, because the
+development of financial sector can play an important role to be an engine of
+economic process.
+
+       Comparing our findings with other empirical studies, we obtained similar
+results. Econometric estimations support the hypothesis formulated. Our results
+are robust with static and dynamic panel data.
+
+       The proxy (LogCREDIT) used to evaluate the financial development
+present a positive correlation on economic growth when we used the fixed
+effects, and GMM-System. This result is according to the literature (Levine,
+2005, Vaona, 2007). Our finding also shows that financial development
+stimulates the productivity and international trade.
+
+       The study has however some limitations. A deeper analysis needs to
+include other control variables: economic freedom, language and cultural
+similarity, human capital, and globalization.
+
+References
+
+Arellano, M., Bond, S., ,,Some tests of specification for panel data: Monte Carlo evidence and
+        an application to employment equations", The Review of Economic Studies, 58, 1991,
+        pp. 277-297
+
+Beck, T., Levine, R., Loayza, N., ,,Finance and the Sources of Growth: Panel Evidence",
+        Journal of Financial Economics, 58, 2000, pp. 261-300
+
+Blanchard, O., ,,Output, the Stock Market, and Interest Rates", American Economic Review, 71,
+        1981, pp. 132-143
+
+Blundell, R., Bond, S., ,,Initial conditions and moment restrictions in dynamic panel data
+        models", Journal of Econometrics, Elsevier, 87(1), 1998, pp. 115-143
+
+Blundell, R., Bond, S., ,,GMM Estimation with persistent panel data: an application to
+        production functions", Econometric Reviews, Taylor and Francis Journals, 19(3), 2000,
+        pp. 321-340
+
+King, R.G.., Levine, R., ,,Finance and Growth: Schumpeter Might be Right", Quarterly Journal
+        of Economics, 108(Aug), 1993, pp. 717-737
+
+Miller, M.H., ,,Financial markets and economic growth", Journal of Applied Corporate
+        Finance, 11, 1998, pp. 8-14
+
+Goldsmith, R.W. (1969). Financial Structure and Development, New Haven, CT: Yale
+        University Press
+24  Nuno Carlos Leitão
+
+La Porta, R., Lopez de Silanes, F., Shleifer, A., Vishny, R.W., ,,Law and Finance", Journal of
+        Political Economy, 106, 1998, pp. 1113-1155
+
+Levine, R., ,,Financial Development and Economic Growth: Views and Agenda", Journal of
+        Economic Literature, 25, 1997, pp. 688-726
+
+Levine, R., Loayza, N., Beck, T., ,,Financial Intermediation and Growth: Causality and
+        Causes", Journal of Monetary Economics, 46, 2000, pp. 31-77
+
+Levine, R., ,,More on Finance and Growth: More finance, More Growth?", Review, Federal
+        Bank of St.Lous issue Jul, 2003, pp. 31-46
+
+Levine, R., ,,Law, Endowments and Property Rights", Journal of Economic Perspectives, 19(3),
+        2005, pp. 61-88
+
+Lucas, R.E. Jr., ,,On the Mechanics of Economic Development", Journal of Monetary
+        Economics, 22: 1988, pp. 3-42
+
+McKinnon, R.I. (1973). Money and Capital in Economic Development, Washington DC:
+        Brookings Institutions
+
+Miller, M.H., ,,Financial Markets and Economic Growth", Journal of Applied Corporate
+        Finance, 11, 1998, pp. 8-15
+
+Neusser, K., Kugler, M., ,,Manufacturing Growth and Financial Development: Evidence from
+        OECD Countries", Review of Economics and Statistics, 80, 1998, pp. 638-646
+
+Robinson, J. (1952). The Interest Rate and Other Essays, London: Macmillan
+Schumpeter, J. (1912). Theorie der Wirtschaftlichen Entwicklung, Leipzig: Duncker &
+
+        Humblot.
+Vaona, A., Schiavo, S., ,,Nonparametric and semiparametric evidence on the long-run effects of
+
+        inflation on growth", Economics Letters, 94, 2007, pp. 452-458
+Windmeijer, F., ,,Afinite sample correction for the variance of linear efficient two-step GMM
+
+        estimators", Journal of Econometrics, 126, 2005, pp. 25-51
+

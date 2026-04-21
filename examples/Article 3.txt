@@ -1,0 +1,635 @@
+      Threshold Effects in the Relationship Between Financial
+
+                   Development and Income Inequality
+
+                                   Mohamed Chakroun
+
+                                         Sfax University, Tunisia
+                              e-mail: Mohamed.chakroun@fsegs.rnu.tn
+
+Abstract
+This paper investigates the existence of nonlinearities in the relationship between financial
+development and income inequality, using the Instrumental Variable Threshold Regression
+(IVTR) introduced by Caner and Hansen (2004). It is shown, based on cross-sectional data of
+60 developed and developing countries, that there is a significant financial development
+threshold effect in the finance-inequality nexus. Particularly, our findings are consistent with
+the Greenwood and Jovanovic hypothesis of an inverted U-shaped relationship between
+banking sector development and inequality. However, there is no evidence for an inverted U-
+shaped relationship between stock market development and inequality. Besides, our estimates
+lead to inconclusive results regarding the impact of stock market development on income
+distribution in low and lower-middle income countries. Our results show that under the lower
+regime, the weight of the market is very light and its contribution to income distribution does
+not matter, while under the higher regime market expansion leads to more inequity.
+Keywords: Financial development, income inequality, IV threshold regression, panel data
+JEL classifications: O16, O15, C36, C33
+
+1. Introduction
+
+During the recent decades, the social and economic inequalities have increased in most of the
+countries. According to the OECD (2015a), the gap between rich and poor is at his highest
+level since 30 years. In the 1980s, 10% of the wealthiest households in OECD had an average
+income level that is seven times higher than the poorest 10% (OECD, 2011). This ratio
+increased to 8:1 in the 1990s, and 9:1 in the 2000s (OECD, 2015a). In 2015, the average
+disposable income of the richest 10% in OECD countries was around 9.6 times higher than that
+
+                                                             1
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+of the poorest 10%. In some European countries the gap is less noticeable since the ratio is less
+than 7 to 1 in France and Germany, but it is 18 to 1 in the United States. Income inequality even
+worsened in egalitarian tradition countries, such as Sweden, where the ratio rose from 3.5 to 1
+in 1985 to 6.5 to 1 in 2013. On the other side, income inequality has significantly narrowed in
+several emerging and developing countries, but the gap between rich and poor remains striking.
+In Chile and Mexico, the richest 10% of the population earn 25 times the income of the poorest
+10%. (OECD, 2015a).
+
+The increase of these inequalities is not only a social or ethical problem, but also, both, a cause
+and a consequence of economic difficulties. The redistribution policies proved to be insufficient
+to reduce income inequality. That is, the deficit reduction initiated by governments has led to
+significant cuts in transfer programs and public services which reduced the redistribution
+capacity of states and promoted the income gaps growth.
+
+The recent financial crisis, which is mainly the result of financial development, has contributed
+to the amplification of the phenomenon. The long-run dynamics of rising inequality may itself
+be the cause of this crisis (Berg and Ostry, 2011). Actually, the global financial crisis has raised
+deep questions about the role of finance and pushed back the question on the relationship
+between finance and income inequality,
+
+For economists the challenge would be to provide policymakers with a clear and understandable
+framework that explains the ways and channels through which financial development may
+reduce income inequalities. Unfortunately, the existing literature shows conflicting evidence.
+We believe these mitigated findings are mainly explained by the gap existing between theory
+and empirical investigations that have addressed the finance-inequality nexus.
+
+In this paper, we argue that, basically, the relationship between financial development and
+income inequality is nonlinear and subject to threshold effects. Standard regression models
+
+                                                             2
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+assuming a linear relationship between the two variables may have led to biased and misleading
+results. Therefore, we choose to apply the threshold model proposed by Caner and Hansen
+(2004) to test the presence of these threshold effects, using cross sectional data for 60 developed
+and developing countries. Our main assumption is that the distributional effect of financial
+development depends on the degree of development of the financial system itself.
+
+By using a panel threshold model, the present study contributes to the existing literature in four
+ways. First, this model has the advantage to detect the potential nonlinearity surrounding the
+relationship between financial development and income inequality. Secondly, by using the
+Caner and Hansen (2004) IV threshold regression technique, we overcome the potential
+endogeneity problem via a set of instrumental variables. Third, the panel threshold regression
+is suitable to deal with the cross-section heterogeneity problem1. Finally, this model is a step
+towards filling the gap in the literature between theory and empirical investigations about the
+finance/inequality nexus, by combining the two main hypotheses, i.e. the "inequality-widening
+hypothesis" and the "inequality-narrowing hypothesis".
+
+The remainder of the paper is organized as follows. Section 2 presents a review of the relevant
+literature, emphasizing nonlinearities in the finance-inequality nexus. Section 3 describes the
+threshold model to be estimated. Section 4 discusses the data-related issues. Section 5 presents
+the main empirical findings, while section 6 concludes.
+
+2. Literature review
+
+There is a widespread idea supporting that financial development reduces inequality. Recent
+developments show that in the presence of investment indivisibilities and increasing returns to
+scale, the financial imperfections resulting from information asymmetries and transaction costs
+
+1 Pesaran and Smith (1995) and Hsiao (2003) have already indicated that ignorance of this issue causes biases to
+appear.
+
+                                                             3
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+produce credit constraints that are particularly harmful for small businesses and poor people
+lacking collateral and connections. By reducing financial frictions and by allowing the poorest
+people and businesses to access and obtain external financing, financial development can
+improve the allocation of capital and reduce income inequality (Galor and Zeira, 1993; Aghion
+and Bolton, 1997; Galor and Moav, 2004).
+
+Galor and Zeira (1993) believe that an economy with capital market imperfections and unequal
+initial distribution of wealth will maintain this inequality and grow more slowly than a similar
+economy with more equitable initial distribution of wealth. Similar predictions have been
+shown by Banerjee and Newman (1993).
+
+However, other studies argue that financial development exacerbates income inequality and
+helps mainly the rich (Haber et al, 2003; Greenwood and Jovanovic, 1990). Haber et al. (2003)
+consider that the credit is generally channeled to connected entrepreneurs and not to those with
+better opportunities and prospects. The poor mainly rely on informal family connections for
+funds, so that financial depth excessively benefits the rich. Controversially, Stiglitz (2015)
+argues that the financial sector, through a variety of forms of exploitation rents, has contributed
+to both the inequalities at the top and the bottom in the US.
+
+In their seminal paper, Greenwood and Jovanovic (1990) studied the link between finance and
+inequality in the context of an endogenous growth model. They found that the dynamics of the
+development process are nonlinear and support the Kuznets hypothesis (von Bayern, Heathcote
+et al. 2009). In the early stages of economic development when financial markets are virtually
+nonexistent, financial development increases inequality. Then, when the economy strengthens
+and an extensive financial structure develops, the distribution of income becomes more stable.
+This form of inverted U-shaped curve is based on fixed costs that arise when people want to
+resort to financial intermediaries.
+
+                                                             4
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+Many empirical studies have addressed the finance-inequality question. But, the results were
+mixed. Das and Mohapatra (2003) examined how the liberalization of the stock market affects
+the distribution of income. They conclude that the gains from liberalization appear to be in favor
+of the top quintile to the cost of middle quintiles and without effect on the lower income quintile.
+
+Liang (2006) studied the link between finance and inequality in urban China. His main finding
+was that the relationship is linear and the financial development of China contributes
+significantly to reducing income inequality in urban areas. However, these positive
+distributional gains from financial sector development have been severely reduced by the
+increase in urban unemployment and massive layoffs caused by the radical reforms in urban
+areas and by restructuring of public enterprises.
+
+Clarke et al. (2006) studied the relationship between finance and income inequality based on a
+sample of 83 developed and developing countries for the period 1960 -1995. They found that,
+in the long-run, the greater is financial sector developed, the lower is inequality.
+
+Beck et al. (2004, 2007) used a sample of 72 developed and developing countries over the 1960-
+2005 period. Their results showed that financial development disproportionately boosts
+incomes of the poorest quintile and reduces inequalities.
+
+Recently, Beck et al. (2009) studied the effect of banking deregulation on income distribution
+in the United States over the 1976-2006 period. They found that deregulation has significantly
+enhanced income distribution. The results suggest that regulatory barriers to competition
+between banks in the 20th century were disproportionately detrimental to low-income workers.
+In contrast, Gimet and Segot (2011) used a Structural Vector Autoregressive Model and a
+sample of 49 countries over the period between 1994 and 2002. They found that the banking
+sector development tends to increase income inequality and that this relationship depends on
+the characteristics of the financial sector rather than its size.
+
+                                                             5
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+Similarly, Jauch and Watzka (2015) used an unbalanced panel of 138 developed and developing
+countries for the 1960-2008 period to investigate the finance- inequality nexus. Their empirical
+results reject the theoretical models predicting a negative impact of financial development on
+income inequality measured by the Gini coefficient.
+
+Another but more recent country-level study by Sehrawat and Giri (2015) examined the
+finance­inequality nexus in India between 1982 and 2012. The results show that financial
+development aggravates income inequality in both the long-run and the short-run.
+
+This result is contrasted by Chen and Kinkyo (2016). Their estimation results from a panel
+error-correction model using the PMG estimator suggest that financial development reduces
+inequality only in the long-run. However, estimates of country-specific coefficients exhibit
+adverse short-run effects of financial development on income inequality.
+
+More recently, Seven and Coskun (2016) using dynamic panel data methods to assess the
+finance­ inequality­poverty nexus argued that although financial development promotes
+economic growth, this does not necessarily benefit those on low-incomes in emerging countries.
+
+Obviously, the results derived from the above studies are not conclusive in matters of the exact
+relationship between finance and income inequalities. As argued by Altunba and Thornton
+(2019), existing empirical literature examining the financial development/inequality nexus
+provides inconclusive findings because most of empirical studies are based on ordinary least
+squares, instrumental variables, and panel estimation techniques, which do not allow to catch
+the effects of the explanatory variables on the entire conditional distribution of the dependent
+variable.
+
+As an alternative method, Altunba and Thornton (2019) propose a quantile regression
+approach to examine the effect of financial development on income inequality. Their empirical
+results suggest the impact of financial development on income inequality changes with a
+
+                                                             6
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+country's income level. In particular, financial development is found to promote equality in
+upper-middle income countries, whereas it accentuates inequalities in low- and high-income
+countries.
+
+Another possibly reliable explanation that can be conveyed to explain these divergent findings
+is the presence of threshold effects. Ineluctably, empirical analyses that omit this feature could
+lead to spurious regressions and probably misleading results.
+
+Actually, only few empirical studies have attempted to test the presence of threshold effects in
+the relationship between financial development and income inequality. For instance, Bresson
+(2004) tried to capture the effects of financial development channeled through investment in
+physical capital and educational capital on income inequality. His study was conducted on a
+sample of 130 countries over the 1960-1999 period. The results show that the overall effect of
+financial development on inequality quickly becomes positive above a threshold of a relatively
+low income. Nevertheless, he found a reducing inequality through the influence of banking
+sector development on the distribution of education.
+
+Bonfiglioli (2005), using a sample of 69 countries over the 1980-2000 period, showed that a
+better investor protection contributes to financial development and affects income inequality in
+different ways. Indeed, any improvement over a low level of investor protection leads to an
+increase of risk-taking rather than risk-sharing, which leads to an increase in income inequality.
+However, when investor protection is sufficiently high, further improvement is more favorable
+for risk-sharing than risk-taking and inequality is reduced.
+
+More recently, Bacarreza and Rioja (2008) studied the effects of financial development on
+income distribution in the region of Latin America and the Caribbean during the period from
+1960 to 2005 using a dynamic panel estimation. Their main finding is that financial
+development affects disproportionate effects on income quintile groups. Particularly, the
+
+                                                             7
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+positive distributional effects of the financial system expansion are not captured by the poorest
+quintile. The authors also noted some evidence for the Greenwood and Jovanovic hypothesis,
+in such a manner that the positive effect begins only beyond a given threshold of economic
+development.
+
+On the other hand, Kim and Lin (2011), using a sample of 53 countries over the 1960-2005
+period, proved the Greenwood and Jovanovic hypothesis of nonlinearity. They found that the
+benefits of the banking sector and the stock market development occur only if the country
+reaches a threshold level of this development. Below this critical value, financial deepening
+opposes the income inequality reduction.
+
+Tan and Law (2012) found that in the early stage of financial development, financial deepening
+leads to more equitable distribution of income, but after reaching a higher level of financial
+development, excessive financial deepening widens the gap between the rich and the poor.
+
+Similarly, Kunieda et al. (2014) showed that financial development expands income inequality
+under higher financial openness, whereas it reduces income inequality under lower financial
+openness. This result is confirmed by Park and Shin (2017) who highlighted a U-shaped
+relationship between finance and inequality. That is, financial development contributes to
+reducing inequality up to a point, but as financial development proceeds further, it contributes
+to greater inequality.
+
+However, these finding are contrasted by the study conducted by Kaidi and Mensi (2016).
+Based on an international sample of 138 countries over the period 1980-2012, their findings
+suggest an inverted U-shaped relationship between financial development and income
+inequality.
+
+Using a sample of 23 Chinese provinces during the period 1996­2012, Liu and all (2016) show,
+based on a panel threshold regression model, that financial deepening helps to reduce income
+
+                                                             8
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+inequality only in the lower financial development regime. This positive relationship turns out
+to be insignificant if the stock market capitalization has reached a certain threshold. A similar
+result has been recently reported by Shahbaz et al (2017) who found a U-shaped relationship
+between financial development and income inequality in Kazakhstan over the period 1990-
+2014. That is, financial development narrows income inequality in the early stages of transition,
+but beyond a given threshold it leads to an increase in income inequality.
+
+In the same direction, Baiardi and Morana (2018) detected a "too much finance" effect during
+the recent crises in the Euro area. Their empirical findings show that income inequality falls as
+financial development increases up to a threshold value of 90­100 GDP points, and then rises
+as financial deepening exceeds the threshold.
+
+More recently, Chiu and Lee (2019) explored the non-linear relationships among income
+inequality and financial development when country risk environments change, by using a panel
+smooth transition regression model. Their results show the effect of financial development on
+income equality is positive for high-income, whilst it is negative for low-income countries.
+
+2. The model
+
+We estimate a model similar to that of Beck and Levine (2004), Beck et al. (2007), Ang (2010)
+
+and Rioja and al. (2014), where change in income inequality is regressed on financial
+
+development and a set of control variables:
+
+               =  + ' +                      (1)
+
+where i = 1, 2 ...N is the country indicator and  is an error term.  denotes
+changes in income inequality,  is the financial development variable and  represents a
+vector of control variables including a constant term.
+
+                                                   9
+
+              Electronic copy available at: https://ssrn.com/abstract=3518099
+To allow for nonlinearity in the relationship, we extend equation (1) into a threshold regression
+model that takes the following form:
+
+ = 1(  ) + 2 ( > ) +                                                (2)
+
+where  =  ,  = (,  ) ,  = (, ') , j=1,2. I(.) represents an indicator
+function which takes the value 1 if the argument in parenthesis is valid, and 0 otherwise.  is
+an exogenous threshold variable used to split the data into different regimes or groups. The
+threshold parameter is   , where a strict subset of the support of . This model allows the
+regression parameters 1 and 2to switch between regimes depending on whether  is smaller
+or larger than the unknown threshold value .
+
+Equation (2) can be re-written in a more detailed form as follows:
+
+ = 1 (  ) + 2 () + 1' (  ) + 2' () +  (3)
+
+Assuming that all explanatory variables are exogenous, Hansen (2000) suggests equation (2) to
+be estimated using Ordinary Least Square (OLS). Conditional on the above estimators, we then
+can estimate the threshold value by minimizing the concentrated sum of squared errors function
+(SSE).
+
+However, the threshold estimation method proposed by Hansen (1996, 2000) is not suitable
+when one or more explanatory variables are endogenous. Since we consider that financial
+development is highly likely to be endogenous, we rather choose to estimate equation (2) by
+applying the Caner and Hansen (2004) instrumental variable threshold regression model
+(IVTR).
+
+The authors define a reduced form of the endogenous variable as follows:
+
+ =  (, ) +                                                          (3)
+
+              10
+
+Electronic copy available at: https://ssrn.com/abstract=3518099
+where i is an unknown parameter vector, g is a linear function and   is a random error. The
+vector  represents a set of instrumental variables which are not included in the inequality
+regression, along with other exogenous variables of the model. After replacing the endogenous
+variable by its reduced form, equation (3) can be written as follows:
+
+ = 1  (, ) (  ) + 2  (, ) () + 1' (  ) +
+
+2' () +                                    (4)
+
+where  = 1   (  ) + 2   ( > ) + 
+
+The parameters are estimated sequentially. First we estimate the reduced form parameter  and
+obtain the predicted value  =  = g (si, ) = 'si. Second we turn to the estimation of the
+threshold parameter  which is chosen to minimise the sum of squared residuals from a
+sequence of regressions of inequality variable on the predicted value of financial development
+variable. Third, we estimate the slope parameters (1, 2, 1, 2) by 2SLS or GMM on the split
+sample implied by .
+
+To test the existence of threshold effect, Caner and Hansen (2004) suggest the Supremum Wald
+test statistic. First, we fixe    to any value and the equation (2) is estimated by GMM. Then,
+for the fixed value of , the Wald statistic under H0 is constructed as follows:
+
+() = [1() - 2()][1() + 2() ]-1[1() - 2()]                        (5)
+
+Repeating the calculation for all   , we can obtain the Sup statistic as the greatest value of
+the calculated :
+
+  = sup ()                        (6)
+
+
+
+                                    11
+
+Electronic copy available at: https://ssrn.com/abstract=3518099
+The asymptotic distribution of this statistic is not standard because of the presence of the
+nuisance parameter . For this reason, Caner and Hansen (2004) use a bootstrapping procedure
+to get the p-value.
+
+Finally, given the estimate  of the threshold variable, the sample is split into two subsamples
+(regimes) based on the indicators (  ) and () . The slope parameters are then
+estimated separately on each subsample. Caner and Hansen (2004) show that the estimators are
+consistent and the slope parameter estimates asymptotically normal with conventional
+covariance matrices.
+
+3. Data description and sources
+
+The sample data used in this study is a pool of 60 developed and developing countries (25 high-
+income countries, 30 middle-income countries and five low-income countries) over the 1980-
+2009 period. It includes 17 countries in North America, Europe and Central Asia, 17 in Latin
+America and Caribbean, 14 in South and East Asia and Pacific, 8 in Sub-Saharan Africa and 4
+in Middle East and North Africa2.
+
+All variables are averaged over the sample period. The income inequality data were obtained
+from the World development Indicators (WDI). For the financial development indicators, we
+use the "Financial Structure Database" compiled by Beck et al. (2009). Data sources and
+definitions are detailed in Table A1 in the Annexes.
+
+3.1 Income inequality variables
+
+Following Beck et al. (2004, 2007) and Kim and Lin (2011), changes in income inequality are
+captured through the annual growth rate of the Gini Coefficient (GINI_GR), computed as the
+log difference between the last and the first observation divided by the number of years between
+
+2 A complete list of countries is provided in table A3.1 in the Annexes.
+
+                                                            12
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+these two observations. Nevertheless, since the Gini coefficient gives only information on the
+overall income distribution, we need another measure to ensure that the change in income
+inequality is associated with a change in the income of the poor. Consequently, we used the
+annual growth rate of the share of the lowest Income quintile (LOWEST_GR) as an additional
+income inequality measure, which is computed as the log difference between the share of the
+lowest income quintile for the last and the first observations divided by the number of years
+between these two observations.
+
+3.2. Financial development variables
+
+As advanced by Lynch (1996), a good measurement of financial development is crucial for
+effective policy formulation, implementation and evaluation. We believe this argument holds
+particularly true in assessing how financial development reduces poverty or income inequality.
+But as pointed by Beck and al. (2007), a perfect indicator of financial development does not
+exist. For this reason, we rely in this study on the most commonly used proxies for financial
+development. Firstly, to proxy the banking sector development we followed Beck and Levine
+(2002) and Kim and Lin (2011) using three indicators expressed in real terms. The first one is
+Private Credit (PRIV) which equals the value of credit by financial intermediaries to the private
+sector divided by GDP. To detect the performance of banking activities, we used the Liquidity
+Ratio (LLY). It is measured as the ratio of M2 (broad money) to GDP. This ratio determines
+the size of financial intermediaries without limitation to the private sector. The third indicator
+is Bank Assets (DBA), measured by the ratio of domestic deposit money bank assets to GDP.
+This proxy reflects the degree of saving allocation to companies by domestic banks.
+
+As for the measurement of the stock market development, we have followed Rousseau and
+Wachtel (2000), Beck and Levine (2002) and Kim and Lin (2011), by using three proxies: i)
+The Stock Market Capitalization (MCAP) equals the total value of listed shares divided by
+
+                                                            13
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+GDP. It reflects the importance of financing by issuing shares in raising capital and in the
+process of resource allocation. ii) The Turnover Ratio (TOR) is equal to the value of traded
+shares on domestic exchanges divided by the value of listed shares. This liquidity measure
+enables detecting the efficiency of the national Stock Market. An increase in TOR implies lower
+transaction costs. iii) Finally, the Value Traded (VT) is defined as the value of traded shares on
+domestic exchanges divided by GDP. It indicates the volume of stock market transactions
+relative to the size of the economy.
+3.3. Control variables
+In line with empirical literature on growth and finance, we introduce in the regression a set of
+control variables in accordance with the augmented Solow model as proposed by Mankiw and
+al. (1992).
+The growth rate of real GDP per capita (GDP_GR) is included to capture the Kuznets
+hypothesis. The average years of the secondary school attainment variable (SCHOOL) is added
+to control the effect of human capital. Inflation (INFL) is introduced in the regression to account
+for the macroeconomic environment. The ratio of government expenditure to GDP (GOV) is
+included to account for the degree of government involvement in markets and the possible use
+of redistribution expenditure. Trade openness (TRADE) is measured by the sum of exports and
+imports divided by GDP. It is included in the regression to capture the degree of international
+openness.
+Furthermore, to alleviate the problem of simultaneity and to assess whether the initial conditions
+of a country matter for future income inequality, all control variables are taken in logarithm and
+in initial values.
+
+                                                            14
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+3.4. Instrumental variables
+As suggested in the literature, we include the initial values of financial development indicators
+and creditor rights (Kim and Lin, 2011) and the levels of religious composition, ethnic
+fractionalization and legal origins (MacCaig and Stengos, 2005; Beck et al., 2004) as
+instruments in order to control for endogeneity and reverse causality.
+For creditor rights (CREDITOR), the data were taken from Djankov et al. (2005). This measure
+reflects the legal rights of creditors against defaulting debtors; a higher value indicates stronger
+creditor rights. The legal origin proxy is a dummy variable (BRITISH) that takes 1 if the legal
+system is based on British tradition and 0 otherwise. La Porta et al. (1997, 1998) argue that the
+origin of legal system has consequences on contractual institutions and show that investor
+protection and the efficiency of the courts differ between different legal origins. Indeed,
+countries whose legal sources are based on British tradition ("Common Law") offer better
+protection to creditors and shareholders' than countries with a legal system based on French
+tradition ("Civil Law"). As regards to the religious composition, Landes (1998) believes that
+Catholic and Muslim countries are characterized by cultural intolerance that limits competition
+and property rights protection. In this context, we consider two variables that reflect the part of
+Catholics (CATHOLIC) and Muslims (MUSLIM) in the population since these two indicators
+have strong influence on financial development. Finally, for ethnic fractionalisation (ETHNIC),
+Beck et al. (2003) advanced that greater ethnic diversity implies the adoption of policies and
+institutions that rely on maintaining power and control rather than the creation of an open and
+competitive financial system.
+
+                                        INSERT TABLE 1 HERE
+
+                                                            15
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+Summary statistics for the dependent and explanatory variables are given in table 1. Besides,
+as multiple regression analysis is often subject to multicollinearity problems, we constructed a
+correlation matrix between financial development and inequality measures. Unsurprisingly,
+Table 2 shows that variables are highly correlated. For this reason, we applied a sequential
+approach in which regression analyses were conducted separately for each of the financial
+development and inequality measures.
+
+                                       INSERT TABLE 2.1 HERE
+
+4. Results
+
+Table A.2 reports parameters estimates of the linear GMM model. It is shown that the impact
+of financial development on income inequality is insignificant regardless of the measure used
+of financial development. Dollar and Kraay (2002) have already explained this result by the
+fact that financial development helps the poor and the rich in the same proportions. Kim and
+Lin (2011) argue that the use of a sample of countries with different levels of financial
+development may obscure the different roles played by this development in reducing
+inequalities. Thus, ignorance of the potential threshold effects in the relationship between
+financial development and inequality may cause biases to appear leading to fallacious results.
+
+4.1. Linearity tests
+
+The linearity tests have been conducted by using the initial values of three banking sector
+development indicators, i.e. PRIV0, LLY0 and DBA0, and three stock market development
+indicators, i.e. TOR0, VT0 and MCAP0, as potential threshold variables3. Furthermore, the
+
+3 As recommended by Caner and Hansen (2004.), the threshold variable should be exogenous. For this reason, we
+only consider the initial values of the financial development variables (i.e. PRIV0, LLY0, DBA0, MCAP0, TOR0,
+VT0).
+
+                                                            16
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+Wald­Wolfowitz test has been applied to check for randomness4. Obviously, results shown in
+table 2.2 indicate that we cannot reject the null hypothesis that the variables are in random order
+at the 5% significance level.
+
+                                       INSERT TABLE 2.2 HERE
+
+As discussed in section 2, to test whether there is evidence for a threshold effect in the
+relationship between financial development and income inequality we employ the Sup W
+statistic. The asymptotic p-values are computed by following the bootstrap procedure suggested
+by Caner and Hansen (2004)5.
+Estimation results reported in tables 3-6 indicate that the Greenwood and Jovanovic (1990)
+hypothesis of an inverted U-shaped relationship between financial development and inequality
+cannot be rejected. The results show a strong and significant threshold effect in the financial
+intermediary development-inequality and stock market development-inequality nexuses.
+Across alternative measures of financial development, the p-values of the Wald test show that
+the threshold effects of financial variables on GINI_GR and LOWEST_GR are statistically
+significant.
+
+4.2. Financial intermediary development and income inequality
+
+The linearity tests show that the estimated threshold varies between 25.09% and 26.43% when
+the GINI_GR is used as a dependent variable (Table 3) and between 26.90 % and 40.19% for
+LOWEST_GR inequality measure (Table 4). These threshold values indicate the degree of
+financial intermediary development a country should achieve so that improvement in its
+
+4 As suggested by an anonymous referee, linearity tests results would be less convincing if the 6 potential threshold
+variables were roughly clustered around two modes and not uniformly distributed across the 60 countries.
+5 Linearity tests have been performed and confidence intervals constructed using 10 thousands bootstraps.
+
+                                                            17
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+financial system may lead to a reduction of income inequality. Thus, the threshold regression
+splits the sample into two separate regimes: one is characterized by a developed banking system
+and the other by a less developed one. As shown in tables A3.2 and A3.3, the high regime
+includes 32 (21) countries among them 88% (90%) when PRIV0 is used as threshold variable
+and GINI_GR (LOWEST_GR) is used as a dependent variable. When LLY0 is taken as
+threshold variable, 32 countries fall into the high financial regime, among them 76% are upper-
+middle and high-income countries.
+
+One can realize, based on estimation of the threshold model, that the coefficients on financial
+development are statistically significant for the two regimes. Particularly, the results presented
+in Tables 3 and 4 indicate that bank development has a threshold and statistically significant
+effect on both the growth of the Gini coefficient and the growth of the income share of the
+poorest quintile. This result implies that during its first stages of development, financial
+intermediary accentuates inequalities and disproportionately helps more the rich. The positive
+distributional effects of financial development are not effective unless the banking sector has
+reached a minimum critical size. In other words, in a system with less developed financial
+intermediation, expansion of the banking sector raises inequalities and is detrimental to the
+poor. However, in the developed banking system regime, financial development positively
+affects income distribution and, more interestingly, boosts the income of the poor. Thus, a better
+allocation of resources to the private sector and a relaxation of credit constraints might
+contribute to reducing inequalities in countries with a developed banking system. However, it
+deteriorates the income distribution in countries where the banking system is underdeveloped.
+Obviously, the threshold model proves that the relation between financial development and
+income inequality is nonlinear. Mitigated results from previous studies are likely due to the
+misleading assumption of a linear and monotonic relationship between the two variables.
+
+                                                            18
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+                                        INSERT TABLE 3 HERE
+
+Tables 3 and 4 show another interesting result. In the threshold regression, initial income share
+of the poor and initial Gini both enter negatively and significantly. This result suggests that
+countries with initially less equitable distribution of income might experience faster reductions
+in income inequality. However, these reductions are expected to be more important in those
+countries with a more developed banking system, as the effect tends to be bigger in the higher
+regime.
+Furthermore, tables 3 and 4 provide interesting insight regarding the behavior of some control
+variables. Initial schooling enters significantly in the threshold regression. The higher is the
+initial secondary school enrolment rate, the faster are the reductions in income inequality and
+the bigger is the share of income received by the poorest quintile. Besides, the coefficient
+estimates suggest that schooling has a significant negative (positive) effect of on the Gini
+growth rate (growth of the share of the poorest quintile), regardless of the level of development
+of the financial system. This result confirms the tight relationship between access to education,
+economic growth and poverty alleviation.
+On the other hand, the relationship between initial trade openness and income inequality is not
+clear. Under the developed banking system regime, international openness aggravates income
+inequality and hurts the poor. Nevertheless, the negative distributional effect of international
+openness is uncertain under a less developed banking system regime. When private credit is
+considered as a threshold, trade openness is not found to be pro-poor. Trade openness is unlikely
+to be reducing poverty when the poor do not have access to credit. We also find that the
+coefficient estimates from table 4 show that high levels of inflation are correlated, positively
+and significantly, with greater income inequality. This is true independently from the level of
+the banking system development. The result corroborates the idea that inflation hurts the poor
+
+                                                            19
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+by redistributing incomes to the detriment of those already living in precarious conditions and
+least accessing financial instruments to hedge against price instability. In addition, the results
+show that government expenditures play a significant role in reducing income inequality.
+Nevertheless, it seems this role is more important under a less developed financial
+intermediation regime.
+
+                                        INSERT TABLE 4 HERE
+
+Finally, the threshold regression results show that the initial GDP growth rate has a nonlinear
+effect on income inequality, depending on the degree of financial intermediary development.
+Actually, the results fail to provide any support for the Kuznets hypothesis. The final effect of
+economic growth on income inequality appears to depend ultimately upon the structure of the
+financial system per se. Our results suggest that countries initially growing rapidly might
+experience faster reductions in income inequality. However, these reductions are expected to
+be more effective in countries with a less developed banking system. In fact, large banking
+sectors tend to pump excessive credit to households, inflating unsustainable bubbles, which
+disproportionately benefit the rich. This result seems accurately describing what happened in
+the OECD countries in the aftermath of the global financial crisis (OECD, 2015).
+
+4.3. Stock market development and income inequality
+When considering stock market development as threshold variable, results from linearity test
+show again a significant threshold effect in the financial development­inequality nexus.
+
+                                        INSERT TABLE 5 HERE
+
+                                                            20
+
+                          Electronic copy available at: https://ssrn.com/abstract=3518099
+

@@ -1,0 +1,25 @@
+# Word-ийн түр файлууд
+~$*.docx
+~$*.doc
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# R
+.Rhistory
+.Rproj.user/
+.RData
+.Ruserdata
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
