@@ -1,0 +1,11 @@
+file,input_exists,output_exists,same_size
+t1_descriptives.csv,TRUE,TRUE,TRUE
+t1b_descriptives_by_wave.csv,TRUE,TRUE,TRUE
+t2_ols_panel.csv,TRUE,TRUE,TRUE
+t3_iv_results.csv,TRUE,TRUE,TRUE
+t4_ivtr_headline.csv,TRUE,TRUE,TRUE
+t5_robustness.csv,TRUE,TRUE,TRUE
+t6_full_summary.csv,TRUE,TRUE,TRUE
+t7_threshold_proxy_comparison.csv,TRUE,TRUE,TRUE
+t8_ch_classical_threshold_comparison.csv,TRUE,TRUE,TRUE
+t9_ch_classical_bootstrap.csv,TRUE,TRUE,TRUE

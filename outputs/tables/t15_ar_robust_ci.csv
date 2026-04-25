@@ -1,0 +1,3 @@
+estimator,beta_point,ci_low,ci_high
+Standard 2SLS CI,0.121273545660074,0.105778025637275,0.136769065682873
+Anderson-Rubin CI,0.121273545660074,,

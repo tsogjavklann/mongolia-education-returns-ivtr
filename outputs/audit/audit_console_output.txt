@@ -1,0 +1,570 @@
+============================================================
+ECONOMETRIC AUDIT CHECKS
+Run time: 2026-04-25 12:30:07 
+============================================================
+
+DATA SIZES
+            object   rows  cols
+            <char>  <int> <int>
+1:     hses_pooled 272096    35
+2:     full_sample 123421    36
+3: analysis_sample  49366    65
+4:     pseudopanel    692    16
+5:         ebs_raw    572     6
+
+KEY VARIABLE NA RATES
+                                     var   class     N nonmissing    na na_pct
+                                  <char>  <char> <int>      <int> <int>  <num>
+ 1:                                 wave integer 49366      49366     0   0.00
+ 2:                          survey_year integer 49366      49366     0   0.00
+ 3:                             log_wage numeric 49366      49366     0   0.00
+ 4:                         wage_monthly numeric 49366      49366     0   0.00
+ 5:                      log_wage_hourly numeric 49366      49366     0   0.00
+ 6:                           educ_years integer 49366      49357     9   0.02
+ 7:                           educ_level integer 49366      49366     0   0.00
+ 8:                                  age integer 49366      49366     0   0.00
+ 9:                                  sex integer 49366      49366     0   0.00
+10:                              marital integer 49366      49366     0   0.00
+11:                           experience integer 49366      49366     0   0.00
+12:                        experience_sq integer 49366      49366     0   0.00
+13:                                urban integer 49366      49366     0   0.00
+14:                               hhsize integer 49366      49366     0   0.00
+15:                             hhweight numeric 49366      49366     0   0.00
+16:                          birth_aimag integer 49366      12023 37343  75.65
+17:                             newaimag integer 49366      49366     0   0.00
+18:                           birth_year integer 49366      49366     0   0.00
+19:                              dist_ub integer 49366      49270    96   0.19
+20:                          log_dist_ub numeric 49366      49270    96   0.19
+21:                        loo_mean_educ numeric 49366      49357     9   0.02
+22:                 ebs_school_age_years integer 49366       5998 43368  87.85
+23:     ebs_teachers_per_1000_school_age numeric 49366       5998 43368  87.85
+24:      ebs_schools_per_1000_school_age numeric 49366       5998 43368  87.85
+25: ebs_student_teacher_ratio_school_age numeric 49366       5998 43368  87.85
+26:          ebs_teachers_per_1000_age12 numeric 49366       3701 45665  92.50
+27:      ebs_student_teacher_ratio_age12 numeric 49366       3701 45665  92.50
+28:           ebs_teachers_per_1000_2000 numeric 49366      11927 37439  75.84
+29:       ebs_student_teacher_ratio_2000 numeric 49366      11927 37439  75.84
+                                     var   class     N nonmissing    na na_pct
+                                  <char>  <char> <int>      <int> <int>  <num>
+
+NUMERIC SUMMARIES
+                                     var     N         mean           sd
+                                  <char> <int>        <num>        <num>
+ 1:                                 wave 49366 2.019676e+03 2.759070e+00
+ 2:                          survey_year 49366 2.019676e+03 2.759070e+00
+ 3:                             log_wage 49366 1.347020e+01 6.181067e-01
+ 4:                         wage_monthly 49366 8.614377e+05 6.062501e+05
+ 5:                      log_wage_hourly 49366 8.327446e+00 7.824946e-01
+ 6:                           educ_years 49357 1.189140e+01 2.884989e+00
+ 7:                           educ_level 49366 5.867662e+00 2.105543e+00
+ 8:                                  age 49366 3.943931e+01 9.087352e+00
+ 9:                                  sex 49366 1.497772e+00 5.000001e-01
+10:                              marital 49366 2.291051e+00 1.062745e+00
+11:                           experience 49366 2.154406e+01 1.002164e+01
+12:                        experience_sq 49366 5.645776e+02 4.637309e+02
+13:                                urban 49366 1.320585e+00 4.667062e-01
+14:                               hhsize 49366 4.028765e+00 1.555087e+00
+15:                             hhweight 49366 6.568682e+01 4.599897e+01
+16:                          birth_aimag 12023 4.825002e+01 5.656725e+01
+17:                             newaimag 49366 4.217534e+01 2.666158e+01
+18:                           birth_year 49366 1.980236e+03 9.345776e+00
+19:                              dist_ub 49270 4.876252e+02 4.574035e+02
+20:                          log_dist_ub 49270 4.700432e+00 2.785827e+00
+21:                        loo_mean_educ 49357 1.187911e+01 9.732923e-01
+22:                 ebs_school_age_years  5998 6.975492e+00 3.585805e+00
+23:     ebs_teachers_per_1000_school_age  5998 4.124914e+01 5.370996e+00
+24:      ebs_schools_per_1000_school_age  5998 1.423245e+00 4.123227e-01
+25: ebs_student_teacher_ratio_school_age  5998 2.467435e+01 1.912227e+00
+26:          ebs_teachers_per_1000_age12  3701 4.135979e+01 7.888350e+00
+27:      ebs_student_teacher_ratio_age12  3701 2.457070e+01 2.700767e+00
+28:           ebs_teachers_per_1000_2000 11927 3.917948e+01 2.138927e+00
+29:       ebs_student_teacher_ratio_2000 11927 2.559800e+01 1.365875e+00
+                                     var     N         mean           sd
+                                  <char> <int>        <num>        <num>
+             min          p01          p25       median          p75
+           <num>        <num>        <num>        <num>        <num>
+ 1: 2.016000e+03 2.016000e+03 2.018000e+03 2.020000e+03 2.021000e+03
+ 2: 2.016000e+03 2.016000e+03 2.018000e+03 2.020000e+03 2.021000e+03
+ 3: 1.133857e+01 1.191839e+01 1.308154e+01 1.345884e+01 1.381551e+01
+ 4: 8.400000e+04 1.500000e+05 4.800000e+05 7.000000e+05 1.000000e+06
+ 5: 5.393398e+00 6.581622e+00 7.824046e+00 8.259364e+00 8.804875e+00
+ 6: 0.000000e+00 3.000000e+00 1.000000e+01 1.200000e+01 1.400000e+01
+ 7: 1.000000e+00 1.000000e+00 4.000000e+00 6.000000e+00 8.000000e+00
+ 8: 2.500000e+01 2.500000e+01 3.200000e+01 3.900000e+01 4.700000e+01
+ 9: 1.000000e+00 1.000000e+00 1.000000e+00 1.000000e+00 2.000000e+00
+10: 1.000000e+00 1.000000e+00 2.000000e+00 2.000000e+00 2.000000e+00
+11: 0.000000e+00 4.000000e+00 1.300000e+01 2.100000e+01 3.000000e+01
+12: 0.000000e+00 1.600000e+01 1.690000e+02 4.410000e+02 9.000000e+02
+13: 1.000000e+00 1.000000e+00 1.000000e+00 1.000000e+00 2.000000e+00
+14: 1.000000e+00 1.000000e+00 3.000000e+00 4.000000e+00 5.000000e+00
+15: 6.070064e+00 1.089583e+01 3.251739e+01 4.816494e+01 1.073763e+02
+16: 1.100000e+01 1.100000e+01 1.100000e+01 4.400000e+01 6.700000e+01
+17: 1.100000e+01 1.100000e+01 1.100000e+01 4.400000e+01 6.400000e+01
+18: 1.956000e+03 1.960000e+03 1.973000e+03 1.981000e+03 1.988000e+03
+19: 0.000000e+00 0.000000e+00 0.000000e+00 3.710000e+02 6.640000e+02
+20: 0.000000e+00 0.000000e+00 0.000000e+00 5.916202e+00 6.498282e+00
+21: 0.000000e+00 9.893939e+00 1.120313e+01 1.191379e+01 1.259728e+01
+22: 1.000000e+00 1.000000e+00 4.000000e+00 7.000000e+00 1.000000e+01
+23: 2.683632e+01 3.666462e+01 3.861984e+01 4.021834e+01 4.270167e+01
+24: 7.819172e-01 8.376698e-01 1.002710e+00 1.441520e+00 1.766978e+00
+25: 1.099232e+01 1.938348e+01 2.369042e+01 2.500599e+01 2.595576e+01
+26: 1.513761e+01 3.553571e+01 3.813253e+01 3.989796e+01 4.252252e+01
+27: 3.675539e+00 1.780576e+01 2.351695e+01 2.506394e+01 2.622433e+01
+28: 3.666462e+01 3.666462e+01 3.666462e+01 3.930636e+01 4.027273e+01
+29: 2.273973e+01 2.273973e+01 2.483070e+01 2.544118e+01 2.727425e+01
+             min          p01          p25       median          p75
+           <num>        <num>        <num>        <num>        <num>
+             p99          max
+           <num>        <num>
+ 1: 2.024000e+03 2.024000e+03
+ 2: 2.024000e+03 2.024000e+03
+ 3: 1.491412e+01 1.542495e+01
+ 4: 3.000000e+06 5.000000e+06
+ 5: 1.051767e+01 1.422098e+01
+ 6: 1.800000e+01 2.200000e+01
+ 7: 9.000000e+00 1.000000e+01
+ 8: 5.900000e+01 6.000000e+01
+ 9: 2.000000e+00 2.000000e+00
+10: 6.000000e+00 6.000000e+00
+11: 4.300000e+01 5.400000e+01
+12: 1.849000e+03 2.916000e+03
+13: 2.000000e+00 2.000000e+00
+14: 8.000000e+00 1.600000e+01
+15: 2.015053e+02 7.519552e+02
+16: 8.500000e+01 9.980000e+02
+17: 8.500000e+01 8.500000e+01
+18: 1.997000e+03 1.999000e+03
+19: 1.636000e+03 1.636000e+03
+20: 7.400010e+00 7.400010e+00
+21: 1.375287e+01 1.800000e+01
+22: 1.200000e+01 1.200000e+01
+23: 5.577004e+01 1.684772e+02
+24: 2.204724e+00 2.301862e+00
+25: 2.727425e+01 4.821819e+01
+26: 5.616162e+01 2.720690e+02
+27: 2.814070e+01 6.606061e+01
+28: 4.397590e+01 4.397590e+01
+29: 2.727425e+01 2.727425e+01
+             p99          max
+           <num>        <num>
+
+CATEGORICAL TABLES WITH NA
+wave
+    wave     N
+   <int> <int>
+1:  2016 10428
+2:  2018 10955
+3:  2020 11045
+4:  2021  6713
+5:  2024 10225
+sex
+     sex     N
+   <int> <int>
+1:     1 24793
+2:     2 24573
+urban
+   urban     N
+   <int> <int>
+1:     1 33540
+2:     2 15826
+marital
+   marital     N
+     <int> <int>
+1:       1  5341
+2:       2 34422
+3:       3  4831
+4:       4  1441
+5:       5  1328
+6:       6  2003
+educ_level
+    educ_level     N
+         <int> <int>
+ 1:          1   754
+ 2:          2   939
+ 3:          3  4495
+ 4:          4 11848
+ 5:          5  5773
+ 6:          6  3265
+ 7:          7  3005
+ 8:          8 17033
+ 9:          9  2140
+10:         10   114
+birth_aimag main waves
+    birth_aimag     N
+          <int> <int>
+ 1:          11  3510
+ 2:          21   450
+ 3:          22   412
+ 4:          23   352
+ 5:          41   602
+ 6:          42    57
+ 7:          43   427
+ 8:          44   261
+ 9:          45   291
+10:          46   202
+11:          48   381
+12:          56     2
+13:          61   146
+14:          62   554
+15:          63   430
+16:          64   280
+17:          65   624
+18:          67   485
+19:          81   692
+20:          82   384
+21:          83   447
+22:          84   409
+23:          85   531
+24:         124     1
+25:         156     3
+26:         203     1
+27:         276     3
+28:         348     1
+29:         392     2
+30:         398    29
+31:         410    15
+32:         643    16
+33:         752     1
+34:         756     1
+35:         792     1
+36:         840     8
+37:         998    12
+38:          NA 15960
+    birth_aimag     N
+          <int> <int>
+newaimag all waves
+    newaimag     N
+       <int> <int>
+ 1:       11 15078
+ 2:       21  1772
+ 3:       22  1521
+ 4:       23  1590
+ 5:       41  1705
+ 6:       42  1004
+ 7:       43  1668
+ 8:       44  1964
+ 9:       45  1775
+10:       46  1861
+11:       48  1512
+12:       61  2190
+13:       62  1496
+14:       63  1345
+15:       64  1414
+16:       65  1639
+17:       67  1474
+18:       81  1640
+19:       82  1512
+20:       83  1916
+21:       84  1712
+22:       85  1578
+    newaimag     N
+       <int> <int>
+
+TARGET VARIABLE OUTLIERS / FILTER CHECKS
+       N wage_nonpositive wage_exact_5m wage_above_5m educ_zero educ_below_6
+   <int>            <int>         <int>         <int>     <int>        <int>
+1: 49366                0            60             0       145         1470
+   educ_above_18 log_wage_min log_wage_max
+           <int>        <num>        <num>
+1:           169     11.33857     15.42495
+educ_years by wave
+Key: <educ_years>
+    educ_years  2016  2018  2020  2021  2024
+         <int> <int> <int> <int> <int> <int>
+ 1:         NA     0     0     4     2     3
+ 2:          0     0     0    70    20    55
+ 3:          1     5    12    26     9    27
+ 4:          2    46    60    49    28    46
+ 5:          3    30    30    37    35    64
+ 6:          4   100   128   139    54   128
+ 7:          5    57    81    53    20    61
+ 8:          6    26    39    29    13    20
+ 9:          7     8    22    17    10    17
+10:          8   875   852  1152   580   990
+11:          9    68    60   100    75   160
+12:         10  2447  2720  2700  1611  2381
+13:         11  1381  1496   644   349   546
+14:         12   866   814   621   403   808
+15:         13     0     0   284   168   209
+16:         14  4178  4245  3455  2128  2862
+17:         15     0     0   705   498   675
+18:         16   317   373   645   497   839
+19:         17     0     0   163    84   160
+20:         18    24    23    94    81   111
+21:         19     0     0    27    23    31
+22:         20     0     0    20    17    27
+23:         21     0     0     8     7     2
+24:         22     0     0     3     1     3
+    educ_years  2016  2018  2020  2021  2024
+         <int> <int> <int> <int> <int> <int>
+educ_level x educ_years for tertiary levels
+    educ_level educ_years     N
+         <int>      <int> <int>
+ 1:          7         10     4
+ 2:          7         11    12
+ 3:          7         12    53
+ 4:          7         13    78
+ 5:          7         14  2672
+ 6:          7         15   130
+ 7:          7         16    39
+ 8:          7         17    11
+ 9:          7         18     6
+10:          8          8     7
+11:          8          9     1
+12:          8         10     4
+13:          8         12    69
+14:          8         13    69
+15:          8         14 13842
+16:          8         15  1625
+17:          8         16  1063
+18:          8         17   174
+19:          8         18   122
+20:          8         19    37
+21:          8         20    17
+22:          8         21     3
+23:          9         14    35
+24:          9         15   106
+25:          9         16  1557
+26:          9         17   217
+27:          9         18   139
+28:          9         19    35
+29:          9         20    34
+30:          9         21     9
+31:          9         22     5
+32:          9         NA     3
+33:         10         16     9
+34:         10         17     4
+35:         10         18    66
+36:         10         19     9
+37:         10         20    13
+38:         10         21     5
+39:         10         22     2
+40:         10         NA     6
+    educ_level educ_years     N
+         <int>      <int> <int>
+
+MERGE INTEGRITY CHECKS
+birth_aimag valid overlap: 11927/27983 = 42.62%
+birth_aimag outside MN standard codes in main waves
+    birth_aimag     N
+          <int> <int>
+ 1:          56     2
+ 2:         124     1
+ 3:         156     3
+ 4:         203     1
+ 5:         276     3
+ 6:         348     1
+ 7:         392     2
+ 8:         398    29
+ 9:         410    15
+10:         643    16
+11:         752     1
+12:         756     1
+13:         792     1
+14:         840     8
+15:         998    12
+dist_ub_birth coverage among valid birth_aimag: 11927/11927 = 100.00%
+EBS 2000 coverage among valid birth_aimag: 11927/11927 = 100.00%
+EBS age-12 coverage among valid birth_aimag: 3701/11927 = 31.03%
+EBS school-age >=3y coverage among valid birth_aimag: 5171/11927 = 86.21%
+
+EBS RAW SEMANTIC CHECK
+    rows source_codes     years raw_teachers_min raw_teachers_max
+   <int>        <int>    <char>            <num>            <num>
+1:   572           22 2000-2025              113            18002
+   raw_schools_min raw_schools_max raw_students_thousand_min
+             <num>           <num>                     <num>
+1:               4             329                       2.9
+   raw_students_thousand_max implied_ptr_min implied_ptr_max
+                       <num>           <num>           <num>
+1:                     411.3        3.675539        75.67568
+
+SEMANTIC RANGE CHECKS FOR DERIVED EBS VARIABLES
+                                    var     N        min    median        max
+                                 <char> <int>      <num>     <num>      <num>
+1:           ebs_schools_per_1000_age12  3701  0.6074766  1.442308   2.333333
+2:          ebs_teachers_per_1000_age12  3701 15.1376147 39.897959 272.068966
+3:      ebs_student_teacher_ratio_age12  3701  3.6755387 25.063939  66.060606
+4:            ebs_schools_per_1000_2000 11927  0.8984615  1.502890   2.204724
+5:           ebs_teachers_per_1000_2000 11927 36.6646154 39.306358  43.975904
+6:       ebs_student_teacher_ratio_2000 11927 22.7397260 25.441176  27.274253
+7:      ebs_schools_per_1000_school_age  5998  0.7819172  1.441520   2.301862
+8:     ebs_teachers_per_1000_school_age  5998 26.8363204 40.218341 168.477186
+9: ebs_student_teacher_ratio_school_age  5998 10.9923218 25.005993  48.218195
+
+ECONOMETRIC DIAGNOSTICS
+main IV N: 11924
+OLS main beta educ = 0.055322, SE = 0.003061
+IV birth_aimag beta educ = 0.121274, SE = 0.007906, first-stage F/Wald = 16.3944
+IV birth_aimag + current FE beta educ = 0.111252, SE = 0.003990, first-stage F/Wald = 15.2219
+AER ivreg diagnostics: birth_aimag
+                 df1   df2 statistic      p-value
+Weak instruments  21 11890  16.39437 2.506188e-59
+Wu-Hausman         1 11909  45.89487 1.306471e-11
+Sargan            20    NA  83.29771 1.074318e-09
+AER ivreg diagnostics: birth_aimag + current aimag FE
+                 df1   df2 statistic      p-value
+Weak instruments  21 11869  15.19505 2.618549e-54
+Wu-Hausman         1 11888  31.98410 1.590243e-08
+Sargan            20    NA  37.19894 1.107546e-02
+
+PLACEBO / MECHANISM CHECK FOR log_dist_ub
+             group     N   beta_dist         se          t
+            <char> <int>       <num>      <num>      <num>
+1: primary_or_less  1292 -0.07973680 0.02318372  -3.439344
+2:   above_primary 10632 -0.08514973 0.00498549 -17.079509
+
+THRESHOLD OUTPUTS
+                                                              proxy     N
+                                                             <char> <int>
+ 1:                  D1: EBS school-age teachers per 1,000 students  5170
+ 2:                   D2: EBS school-age schools per 1,000 students  5170
+ 3:                        D3: EBS school-age student-teacher ratio  5170
+ 4:                      D4: EBS age-12 teachers per 1,000 students  3701
+ 5:                       D5: EBS age-12 schools per 1,000 students  3701
+ 6:                            D6: EBS age-12 student-teacher ratio  3701
+ 7:                        D7: EBS 2000 teachers per 1,000 students 11924
+ 8:                         D8: EBS 2000 schools per 1,000 students 11924
+ 9:                              D9: EBS 2000 student-teacher ratio 11924
+10:                                            C: birth_year cohort 11924
+11: C3: 2008 reform cohort dummy (effectively binary; born >= 1991) 11924
+12:                                C4: age at 2008 education reform 11924
+13:                      B: birth-aimag prior-cohort mean education 11881
+14:                           A: leave-one-out local mean education 11924
+15:                                           F: log distance to UB 11924
+16:                                   INVALID: educ_years threshold 11924
+     gamma_star       diff_p    fs_low   fs_high
+          <num>        <num>     <num>     <num>
+ 1:   41.099895 8.687596e-01 11.550429 19.594809
+ 2:    1.261268 4.598287e-01  6.175688  3.897238
+ 3:   23.258052 8.437372e-01 18.857971  8.560608
+ 4:   38.497653 9.457605e-01 25.324683  5.419721
+ 5:    1.193061 4.219145e-01 15.692097  3.075943
+ 6:   25.802226 4.829519e-01  6.085975 26.235839
+ 7:   39.000000 4.251025e-06 17.186017  5.880688
+ 8:    1.004785 8.289790e-01  6.734707  4.537439
+ 9:   25.441176 9.193637e-01  5.880688 17.186017
+10: 1981.000000 6.112041e-01  8.291346  8.709393
+11:    1.000000 3.704431e-01 14.492106  1.995667
+12:   26.000000 5.578340e-03  8.709393  8.291346
+13:   11.766059 1.358823e-01 16.026191 13.060623
+14:   12.740000 4.743086e-01 31.669346  9.647876
+15:    5.393628 7.065993e-02 68.296536  3.488079
+16:   13.000000 6.486511e-01  4.023068  2.676722
+                                                              proxy     N
+                                                             <char> <int>
+ 1:                  D1: EBS school-age teachers per 1,000 students  5170
+ 2:                   D2: EBS school-age schools per 1,000 students  5170
+ 3:                        D3: EBS school-age student-teacher ratio  5170
+ 4:                      D4: EBS age-12 teachers per 1,000 students  3701
+ 5:                            D5: EBS age-12 student-teacher ratio  3701
+ 6:                        D6: EBS 2000 teachers per 1,000 students 11924
+ 7:                              D7: EBS 2000 student-teacher ratio 11924
+ 8:                                           C1: birth-year cohort 11924
+ 9: C3: 2008 reform cohort dummy (effectively binary; born >= 1991) 11924
+10:                                C4: age at 2008 education reform 11924
+11:                                          G1: log distance to UB 11924
+12:                     B1: birth-aimag prior-cohort mean education 11881
+13:                          A1: leave-one-out local mean education 11924
+14:                                   INVALID: educ_years threshold 11924
+     gamma_star       diff_p    fs_low   fs_high
+          <num>        <num>     <num>     <num>
+ 1:   41.261687 4.285984e-01  8.615919 21.372771
+ 2:    1.013002 7.130735e-01        NA  4.713095
+ 3:   24.105503 4.370419e-01 20.470176  9.539992
+ 4:   43.024390 1.368438e-01  4.926064 12.133168
+ 5:   23.625731 5.462331e-02 11.159336  4.918529
+ 6:   39.809524 1.481832e-01 16.853503  5.237414
+ 7:   24.966799 1.858009e-01  5.237414 16.853503
+ 8: 1988.000000 1.501009e-01 12.516484  2.714323
+ 9:    0.000000 7.119229e-02 14.003418  1.894210
+10:   19.000000 1.573287e-01  2.714323 12.516484
+11:    6.508769 1.361524e-04 21.018182  1.131649
+12:   11.237179 2.510795e-06 14.515024 16.764167
+13:   12.740000 4.743086e-01 31.669346  9.647876
+14:   12.000000 3.741290e-04  4.381776  3.456447
+                                                             proxy     N     B
+                                                            <char> <int> <int>
+1:                  D1: EBS school-age teachers per 1,000 students  5170   999
+2:                        D3: EBS school-age student-teacher ratio  5170   999
+3:                            D5: EBS age-12 student-teacher ratio  3701   999
+4: C3: 2008 reform cohort dummy (effectively binary; born >= 1991) 11924   999
+5:                                          G1: log distance to UB 11924   999
+6:                     B1: birth-aimag prior-cohort mean education 11881   999
+   gamma_star observed_sup_wald bootstrap_p bootstrap_p95
+        <num>             <num>       <num>         <num>
+1:  41.261687         145.52936       0.001     14.629446
+2:  24.105503         139.93469       0.001     14.594844
+3:  23.625731          71.73473       0.001     13.832685
+4:   0.000000         118.96885       0.001      8.512575
+5:   6.508769          46.94352       0.001     12.122803
+6:  11.237179          16.57678       0.029     14.591435
+                       defensibility
+                              <char>
+1:                       Best theory
+2:                     Strong theory
+3:              Strong but smaller N
+4: Exogenous binary cohort indicator
+5:             Geographic diagnostic
+6:                   Diagnostic only
+
+PSEUDOPANEL CHECKS
+   cells waves min_cell_n median_cell_n max_cell_n mean_educ_min mean_educ_max
+   <int> <int>      <int>         <num>      <int>         <num>         <num>
+1:   692     5         20            49        722      8.989482      14.25476
+Pseudo-panel cells by wave
+    wave     N
+   <int> <int>
+1:  2016   149
+2:  2018   149
+3:  2020   141
+4:  2021   105
+5:  2024   148
+
+OUTPUT RECONCILIATION
+                                        file input_exists output_exists
+                                      <char>       <lgcl>        <lgcl>
+ 1:                      t1_descriptives.csv         TRUE          TRUE
+ 2:             t1b_descriptives_by_wave.csv         TRUE          TRUE
+ 3:                         t2_ols_panel.csv         TRUE          TRUE
+ 4:                        t3_iv_results.csv         TRUE          TRUE
+ 5:                     t4_ivtr_headline.csv         TRUE          TRUE
+ 6:                        t5_robustness.csv         TRUE          TRUE
+ 7:                      t6_full_summary.csv         TRUE          TRUE
+ 8:        t7_threshold_proxy_comparison.csv         TRUE          TRUE
+ 9: t8_ch_classical_threshold_comparison.csv         TRUE          TRUE
+10:            t9_ch_classical_bootstrap.csv         TRUE          TRUE
+    same_size
+       <lgcl>
+ 1:      TRUE
+ 2:      TRUE
+ 3:      TRUE
+ 4:      TRUE
+ 5:      TRUE
+ 6:      TRUE
+ 7:      TRUE
+ 8:      TRUE
+ 9:      TRUE
+10:      TRUE
+
+RESEARCH_RESULTS KEY NUMBER CHECK
+    token present_in_research_results
+   <char>                      <lgcl>
+1: 0.1213                        TRUE
+2:  12.9%                        TRUE
+3:  41.26                        TRUE
+4:  0.001                        TRUE
+5: 0.4286                        TRUE
+6: 0.0546                        TRUE
+7: 0.9870                        TRUE
+8: 0.8688                        TRUE
+
+PYTHON REPLICATION OUTPUT
+c:\tsogoo\Hicheel\erdem shinjilgeenii hural\ecnometric\python\replicate_headline.py:37: DtypeWarning: Columns (43,50) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(DATA)
+N = 11924
+OLS beta_educ = 0.055322
+2SLS beta_educ = 0.121274
+Expected R coefficients: OLS about 0.0553; 2SLS about 0.1213 
+
+DONE

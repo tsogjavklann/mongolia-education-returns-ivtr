@@ -1,13 +1,25 @@
 Item,Value
-Optimal threshold gamma*,13 years
-beta_1 (educ <= gamma*),0.0533
-SE_1,(0.0272)
-Return per year (regime 1),5.5%
-beta_2 (educ > gamma*),0.1650
-SE_2,(0.0307)
-Return per year (regime 2),17.9%
-SupWald statistic,152.20
-Bootstrap p-value,0.0000
-N (regime 1),"6,144"
-N (regime 2),"5,876"
-N (total),"12,020"
+Optimal threshold gamma*,"41.10 teachers per 1,000 students"
+LR-profile 95% set for gamma*,"[41.10, 43.71]"
+Threshold variable,"EBS teachers per 1,000 students during school ages 6-17"
+Estimator,Joint 2SLS with interacted instruments
+Interpretation warning,Threshold is predetermined EBS supply; slope-difference test is not significant
+beta_1 (low-q regime),0.0588
+SE_1,(0.0155)
+Return per year (regime 1),6.1%
+Regime 1 definition,Low teacher-supply birth environment (q <= 41.10)
+beta_2 (high-q regime),0.0507
+SE_2,(0.0393)
+Return per year (regime 2),5.2%
+Regime 2 definition,High teacher-supply birth environment (q > 41.10)
+Difference b2 - b1 (log points),-0.0081
+SE (diff),0.0488
+t-stat for b1 = b2,-0.17
+p-value for b1 = b2,0.8688
+Separate-regime first-stage F/Wald (regime 1),11.55
+Separate-regime first-stage F/Wald (regime 2),19.59
+SupWald-style statistic,657.52
+"Bootstrap p-value (B=1000, wild)",0.9870
+N (regime 1),"2,820"
+N (regime 2),"2,350"
+N (total),"5,170"

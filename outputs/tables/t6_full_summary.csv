@@ -1,11 +1,11 @@
 Model,beta,return_pct,N
-OLS (simple),0.0736,7.6,49357
-OLS (aimag+wave FE),0.0661,6.8,49357
-Panel FE (pseudo-panel),0.1627,17.7,692
-Panel RE (pseudo-panel),0.2028,22.5,692
-2SLS IV (birth_aimag),0.1133,12,12020
-2SLS IV (log dist_UB),0.2055,22.8,7746
-2SLS IV (overidentified),0.1043,11,7746
-IVTR regime 1 (educ<=13),0.0533,5.5,6144
-IVTR regime 2 (educ>13),0.165,17.9,5876
-Heckman corrected,0.0670686672000838,6.9,49811
+OLS (simple),0.0735559275470421,7.6,49357
+OLS (aimag+wave FE),0.063057114222636,6.5,49357
+Panel FE (pseudo-panel),0.162726884074255,17.7,692
+Panel RE (pseudo-panel),0.202818163298498,22.5,692
+2SLS IV (birth_aimag),0.121273545660074,12.9,11924
+2SLS IV (birth_aimag + current aimag FE),0.111251867237257,11.8,11924
+"2SLS IV (log dist_UB, robustness)",0.149837858367518,16.2,11924
+IV threshold regime 1 (low EBS supply),0.0587529682841472,6.1,2820
+IV threshold regime 2 (high EBS supply),0.0506883045860929,5.2,2350
+Heckman corrected,0.0557227494079791,5.7,49811

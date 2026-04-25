@@ -1,7 +1,10 @@
-Statistic,(1) OLS,(2) 2SLS birth_aimag,(3) 2SLS log_dist_UB,(4) 2SLS overidentified
-beta_educ,0.0574,0.1133,0.2055,0.1043
-SE,(0.0025),(0.0068),(0.0389),(0.0054)
+Statistic,(1) OLS,(2) 2SLS birth_aimag,(3) 2SLS log_dist_UB,(4) 2SLS birth + current FE
+beta_educ,0.0553,0.1213,0.1498,0.1113
+SE,(0.0031),(0.0079),(0.0145),(0.0040)
 Method,OLS,2SLS,2SLS,2SLS
-IV,-,birth_aimag,log(dist_UB),birth_aimag + log(dist)
-First-stage F,-,10.46,17.77,-
-N,12020,12020,7746,7746
+IV,-,birth_aimag,log(dist_UB),birth_aimag; current aimag FE
+First-stage F/Wald,-,16.39,227.98,15.22
+Wu-Hausman p-value,-,<0.001,-,<0.001
+Sargan p-value,-,<0.001,-,0.0111
+Overidentification note,-,Sargan rejects; exclusion-risk caveat,Exactly identified; robustness only,Sargan rejects; exclusion-risk caveat
+N,11924,11924,11924,11924

@@ -18,23 +18,23 @@ pandoc input.md -f markdown+tex_math_dollars+tex_math_single_backslash \
 
 ## II. Уралдааны стандарт (заавал)
 
-### Хуудас ба margins
+### Хуудас ба margins (СЭЗИС PDF 3.13)
 ```javascript
 // docx-js-д:
 {
   page: {
     size: { width: convertMillimetersToTwip(210), height: convertMillimetersToTwip(297) },  // A4
     margin: {
-      top: convertMillimetersToTwip(20),
-      bottom: convertMillimetersToTwip(20),
-      left: convertMillimetersToTwip(30),    // ★ зүүн 30мм
-      right: convertMillimetersToTwip(15)    // ★ баруун 15мм
+      top: convertMillimetersToTwip(25),     // ★ дээд 25мм (2.5см)
+      bottom: convertMillimetersToTwip(20),  // ★ доод 20мм (2см)
+      left: convertMillimetersToTwip(30),    // ★ зүүн 30мм (үдэх зай багтсан)
+      right: convertMillimetersToTwip(20)    // ★ баруун 20мм (2см)
     }
   }
 }
 ```
 
-### Fonts
+### Fonts (СЭЗИС PDF 3.7)
 ```javascript
 {
   font: { name: "Times New Roman" },
@@ -42,11 +42,27 @@ pandoc input.md -f markdown+tex_math_dollars+tex_math_single_backslash \
 }
 ```
 
-### Мөр зай
+### Мөр зай + догол хоорондын зай (СЭЗИС PDF 3.7)
 ```javascript
 {
-  spacing: { line: 360 }  // 360 = 1.5 зай (240 = single, 480 = double)
+  spacing: {
+    line: 360,        // Multiple At 1.5sp (240=single, 360=1.5, 480=double)
+    lineRule: "auto",
+    before: 120,      // Before 6pt (1pt = 20 twip → 6pt = 120)
+    after: 120        // After 6pt
+  },
+  alignment: "both"   // Justified (баруун зүүн зэрэгцсэн)
 }
+```
+
+### Хуудасны дугаар — баруун дээд булан (СЭЗИС PDF 3.8)
+```javascript
+new Header({
+  children: [new Paragraph({
+    alignment: "right",
+    children: [new PageNumber()]
+  })]
+})
 ```
 
 ### Pandoc reference doc (шаардлагатай)
@@ -65,15 +81,20 @@ pandoc -o reference_default.docx --print-default-data-file reference.docx
 python skills/docx/scripts/validate.py outputs/paper/SEZIS_paper.docx
 ```
 
-Шалгах зүйлс:
+Шалгах зүйлс (СЭЗИС PDF-ийн шаардлага):
 1. Font = Times New Roman
 2. Body font size = 12pt
-3. Line spacing = 1.5
-4. Page size = A4
-5. Margins = 20/20/30/15 mm
-6. OMML math equations exist
-7. Tables have borders
-8. Figures have captions
+3. Line spacing = Multiple 1.5sp
+4. Paragraph spacing After/Before = 6pt
+5. Justification = Justified
+6. Page size = A4
+7. Margins = **25/20/30/20 mm** (Top/Bottom/Left/Right)
+8. Page numbers = top-right corner, Arabic
+9. OMML math equations numbered [n] at right edge
+10. Tables/Figures: caption TOP-LEFT (10pt Italic)
+11. Source below table/figure (10pt Italic)
+12. Bibliography heading = ALL CAPS Bold centered
+13. Bullets use • character
 
 ## IV. Хүснэгтийн стандарт
 

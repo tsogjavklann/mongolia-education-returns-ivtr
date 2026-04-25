@@ -10,6 +10,18 @@ BASE <- "c:/tsogoo/Hicheel/erdem shinjilgeenii hural/ecnometric/data"
 dt <- fread(file.path(BASE, "clean", "hses_pooled.csv"))
 cat(sprintf("Loaded: %s rows x %s cols\n", nrow(dt), ncol(dt)))
 
+# --- M3 fix: normalize 2-digit year coding (e.g., 24 -> 2024) ---------------
+# 2024 wave HSES file stores survey_year as 24 (2-digit). Standardize to 4-digit
+# so any future-trend or cohort code using survey_year does not silently break.
+if ("survey_year" %in% names(dt)) {
+  n_short <- sum(!is.na(dt$survey_year) & dt$survey_year < 100, na.rm = TRUE)
+  if (n_short > 0) {
+    dt[!is.na(survey_year) & survey_year < 100,
+       survey_year := survey_year + 2000L]
+    cat(sprintf("Normalized %d 2-digit survey_year values to 4-digit.\n", n_short))
+  }
+}
+
 # =============================================================================
 # 1. EDUCATION YEARS: 2008 reform correction (11-year → 12-year system)
 # =============================================================================

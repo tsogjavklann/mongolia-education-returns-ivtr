@@ -1,0 +1,3 @@
+model,weak_instrument_F,wu_hausman_p,sargan_stat,sargan_p,interpretation
+birth_aimag,16.3943671110709,1.30647123555123e-11,83.2977079658901,1.07431754399036e-09,Sargan rejects; report exclusion-risk caveat
+birth_aimag + current aimag FE,15.1950458474351,1.59024330705167e-08,37.1989425792008,0.0110754628421652,Sargan rejects at 5%; report exclusion-risk caveat

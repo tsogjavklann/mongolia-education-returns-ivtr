@@ -33,6 +33,9 @@ check("age not all NA", sum(!is.na(dt$age)) > 40000)
 check("age in [25, 60]", all(dt$age >= 25 & dt$age <= 60, na.rm = TRUE))
 check("educ_years in [0, 22]", all(dt$educ_years >= 0 & dt$educ_years <= 22, na.rm = TRUE))
 check("log_wage > 0", all(dt$log_wage > 0, na.rm = TRUE))
+check("urban uses HSES codes 1=urban, 2=rural",
+      all(sort(unique(dt$urban[!is.na(dt$urban)])) == c(1, 2)))
+check("rural subsample is non-empty under code 2", nrow(dt[urban == 2]) > 10000)
 
 # 4. Education distribution
 mean_educ <- mean(dt$educ_years, na.rm = TRUE)
@@ -46,6 +49,39 @@ check(sprintf("median wage = %.0f > 100,000 MNT", med_wage), med_wage > 100000)
 # 6. Birth aimag in main waves
 n_ba <- sum(!is.na(dt$birth_aimag) & dt$wave >= 2020)
 check(sprintf("birth_aimag available for %d obs (>10,000)", n_ba), n_ba > 10000)
+
+MN_AIMAG_CODES <- c(11, 21, 22, 23, 41, 42, 43, 44, 45, 46, 48,
+                    61, 62, 63, 64, 65, 67, 81, 82, 83, 84, 85)
+n_ba_valid <- sum(dt$wave >= 2020 & dt$birth_aimag %in% MN_AIMAG_CODES, na.rm = TRUE)
+check(sprintf("valid MN birth_aimag count = %d (>11,000)", n_ba_valid), n_ba_valid > 11000)
+
+if ("dist_ub_birth" %in% names(dt)) {
+  check("birth_aimag 11 has zero birth distance",
+        all(dt[birth_aimag == 11 & !is.na(dist_ub_birth), dist_ub_birth] == 0))
+  check("valid MN birth_aimag has nonmissing birth distance",
+        all(!is.na(dt[wave >= 2020 & birth_aimag %in% MN_AIMAG_CODES, dist_ub_birth])))
+  check("nonstandard birth_aimag has missing birth distance",
+        all(is.na(dt[wave >= 2020 & !is.na(birth_aimag) &
+                       !(birth_aimag %in% MN_AIMAG_CODES), dist_ub_birth])))
+}
+
+# 6b. EBS threshold variables
+main_valid_birth <- dt[wave >= 2020 & birth_aimag %in% MN_AIMAG_CODES]
+if ("ebs_teachers_per_1000_2000" %in% names(dt)) {
+  n_ebs_2000 <- sum(!is.na(main_valid_birth$ebs_teachers_per_1000_2000))
+  check(sprintf("EBS 2000 supply available for %d valid-birth obs", n_ebs_2000),
+        n_ebs_2000 > 11000)
+}
+if ("ebs_teachers_per_1000_school_age" %in% names(dt)) {
+  n_ebs_school_age <- sum(main_valid_birth$ebs_school_age_years >= 3, na.rm = TRUE)
+  check(sprintf("EBS school-age exposure available for %d valid-birth obs", n_ebs_school_age),
+        n_ebs_school_age > 5000)
+  check("EBS teacher supply has plausible positive values",
+        all(dt[!is.na(ebs_teachers_per_1000_school_age),
+               ebs_teachers_per_1000_school_age] > 0))
+}
+check("legacy mislabeled students_per_teacher column removed",
+      !"students_per_teacher" %in% names(dt))
 
 # 7. Weights
 check("hhweight all positive", all(dt$hhweight > 0, na.rm = TRUE))
@@ -68,6 +104,29 @@ check("hses_pooled.csv exists", file.exists(file.path(BASE, "clean", "hses_poole
 check("analysis_sample.csv exists", file.exists(file.path(BASE, "clean", "analysis_sample.csv")))
 check("pseudopanel.csv exists", file.exists(file.path(BASE, "clean", "pseudopanel.csv")))
 check("ivtr_grid_results.csv exists", file.exists(file.path(BASE, "clean", "ivtr_grid_results.csv")))
+check("threshold_proxy_comparison.csv exists",
+      file.exists(file.path(BASE, "clean", "threshold_proxy_comparison.csv")))
+check("ch_classical_threshold_comparison.csv exists",
+      file.exists(file.path(BASE, "clean", "ch_classical_threshold_comparison.csv")))
+check("ch_classical_bootstrap.csv exists",
+      file.exists(file.path(BASE, "clean", "ch_classical_bootstrap.csv")))
+
+# 10b. Guard against previous reproducibility/reporting regressions
+PROJECT <- "c:/tsogoo/Hicheel/erdem shinjilgeenii hural/ecnometric"
+main_runner <- readLines(file.path(PROJECT, "R", "00_main.R"), warn = FALSE)
+robustness_script <- readLines(file.path(PROJECT, "R", "07_robustness.R"), warn = FALSE)
+ivtr_script <- readLines(file.path(PROJECT, "R", "05_ivtr_caner_hansen.R"), warn = FALSE)
+check("00_main.R uses stable R_DIR for script paths",
+      any(grepl("^R_DIR <-", main_runner)) &&
+        !any(grepl("source\\(file.path\\(BASE", main_runner)))
+check("robustness script does not use impossible rural code urban == 0",
+      !any(grepl("urban == 0", robustness_script, fixed = TRUE)))
+check("IVTR bootstrap default is final-paper scale",
+      any(grepl('Sys.getenv\\("IVTR_BOOT", "1000"\\)', ivtr_script)))
+check("00_main.R includes classical Caner-Hansen sweep",
+      any(grepl("12_ch_classical_mongolia.R", main_runner, fixed = TRUE)))
+check("00_main.R includes classical Caner-Hansen bootstrap",
+      any(grepl("13_ch_classical_bootstrap.R", main_runner, fixed = TRUE)))
 
 # 11. Figures exist
 FIGS <- "c:/tsogoo/Hicheel/erdem shinjilgeenii hural/ecnometric/outputs/figures"

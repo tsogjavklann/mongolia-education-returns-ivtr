@@ -1,107 +1,74 @@
-# Монгол Улс дахь боловсролын бодит өгөөжийн босготой үнэлгээ
+# Монгол Улс дахь боловсролын өгөөжийн IV-threshold шинжилгээ
 
-**IV-Threshold регрессийн шинжилгээ ӨНЭЗС микро өгөгдөлд суурилсан**
+Энэ repository нь ӨНЭЗС/HSES 2016, 2018, 2020, 2021, 2024 микро өгөгдөл дээр
+боловсролын өгөөжийг OLS, IV, panel/pseudo-panel, Caner-Hansen (2004)
+IV-threshold аргуудаар шалгасан reproducible шинжилгээний кодыг агуулна.
 
-СЭЗИС-ийн Эконометрикийн VIII Олимпиадын II шатанд оруулж буй эрдэм шинжилгээний бүтээл.
+> Анхаар: `outputs/paper/*.docx` дотор хуучин тоо байж болно. Одоогийн зөв
+> шинжилгээний үр дүнг `inputs/data_summary/research_results.md` болон
+> `outputs/tables/*.csv`-ээс авна.
 
-## Судалгааны агуулга
+## Одоогийн гол үр дүн
 
-Монгол Улсын хөдөлмөрийн зах зээлд боловсролын бодит өгөөжийг Caner, Hansen
-(2004) нарын хэрэгсэл хувьсагчтай босго утгат регрессийн (ХХБР) аргачлалаар
-анх удаа үнэлэв. Үндэсний Статистикийн Хорооны Өрхийн нийгэм, эдийн засгийн
-судалгаа (ӨНЭЗС)-ны 2016, 2018, 2020, 2021, 2024 оны таван давалгааны
-нэгтгэсэн өгөгдлөөс 25–60 насны цалин хөлстэй ажиллагч 49,366 хүний
-ажиглалтыг ашиглав.
+- Үндсэн sample: 25-60 насны, эерэг сарын цалинтай 49,366 хүн.
+- IV sample: 2020, 2021, 2024 оны стандарт төрсөн-аймгийн кодтой 11,924 хүн.
+- OLS + аймаг/wave fixed effects: боловсролын өгөөж ойролцоогоор 6.5%.
+- IV (`birth_aimag` instruments): `beta = 0.1213`, өгөөж ойролцоогоор 12.9%,
+  first-stage F/Wald = 16.39.
+- Өмнөх `educ_years` threshold specification нь Caner-Hansen-ийн exogenous
+  threshold assumption зөрчсөн тул headline-д ашиглахгүй.
+- Хамгийн хамгаалагдах exogenous threshold: төрсөн аймгийн school-age үеийн
+  ЕБС-ийн багш / 1,000 сурагч (`ebs_teachers_per_1000_school_age`).
+- Classical Caner-Hansen 3-step estimator дээр энэ EBS teacher-supply threshold
+  formal SupWald bootstrap test-ээр significant: `gamma = 41.26`, `p = 0.001`
+  (`B = 999`).
+- Гэхдээ education-return slope difference D1 дээр significant биш
+  (`p = 0.4286`). Иймээс зөв claim нь: formal threshold structure байна,
+  харин teacher-supply regime бүрийн боловсролын өгөөж баттай ялгаатай гэж
+  хэтрүүлж болохгүй.
+- Хамгийн сайн supplementary returns-heterogeneity evidence:
+  age-12 student-teacher ratio threshold, `gamma = 23.63`, formal CH
+  bootstrap `p = 0.001`, slope-difference `p = 0.0546`.
 
-### Гол үр дүн
+## Pipeline
 
-- **ЭХБК үнэлгээ:** 6.8 хувь / жил
-- **ХШХБК үнэлгээ:** 11.3 хувь / жил (эхний шатны F = 10.46)
-- **ХХБР босго γ\*:** 13 жил
-  - Регим 1 (educ ≤ 13): **5.5 хувь / жил**
-  - Регим 2 (educ > 13): **17.9 хувь / жил** (3.3 дахин их)
-- **Вайлд бүүтстрап p-утга:** p < 0.001
-
-## Төслийн бүтэц
-
-```
-ecnometric/
-├── R/                         # 13 R скрипт (00_main.R-ээс 99_tests.R)
-├── python/                    # Python replication болон docx боловсруулалт
-├── data/
-│   ├── hses_2016/ … hses_2024/    # ҮСХ-ны ӨНЭЗС өгөгдөл
-│   ├── aux/                        # ЕБС-ийн статистик (ҮСХ нээлттэй)
-│   └── clean/                      # Нэгтгэсэн, цэвэрлэсэн CSV
-├── outputs/
-│   ├── tables/                # T1–T6 хүснэгт
-│   ├── figures/               # F1–F5 зураг (300 dpi PNG)
-│   └── paper/                 # Эцсийн docx/pdf
-├── inputs/                    # Бичвэрт ашигласан материал
-├── mb_refs/                   # Монголбанкны 15 эх сурвалжийн судалгаа
-├── examples/                  # 5 олон улсын академик өгүүллийн жишээ
-└── skills/                    # Mongolian academic + docx skill-үүд
+```powershell
+& 'C:\Program Files\R\R-4.4.3\bin\Rscript.exe' 'R\00_main.R'
+& 'C:\Program Files\R\R-4.4.3\bin\Rscript.exe' 'R\99_tests.R'
 ```
 
-## Аргачлал
+`R/00_main.R` нь 13 алхамтай:
 
-Шинжилгээг дөрвөн шатлалтайгаар явуулсан:
+1. HSES import
+2. variable harmonization
+3. pseudo-panel construction
+4. IV болон EBS threshold variable construction
+5. OLS + IV
+6. strict interacted-IV threshold robustness
+7. threshold proxy comparison
+8. classical Caner-Hansen threshold sweep
+9. classical Caner-Hansen bootstrap test
+10. panel FE/RE
+11. robustness checks
+12. diagnostics
+13. figures/tables
 
-1. **ЭХБК** — Минсерийн цалингийн тэгшитгэл, суурь үнэлгээ
-2. **Псевдо-панел** — Deaton (1985) арга, төрсөн когорт × аймаг × давалгааны
-   692 нүдтэй хиймэл панел
-3. **ХШХБК** — 3 хэрэгсэл хувьсагчтайгаар эндоген хазайлтыг засах:
-   - Төрсөн аймгийн ангилал хувьсагч
-   - Улаанбаатар хүртэлх зайн логарифм
-   - Сумын ЕБС-ийн багш / сурагчийн харьцаа
-4. **ХХБР** — Caner, Hansen (2004) нарын аргаар 13 жилийн бүтцийн хугарлыг
-   тогтоосон
+## Гол outputs
 
-## Техникийн орчин
+- `inputs/data_summary/research_results.md`: судалгааны одоогийн зөв хураангуй.
+- `inputs/data_summary/ch_mongolia_literature_and_threshold_logic.md`: threshold
+  variable сонголтын Монгол-specific онолын үндэслэл.
+- `outputs/tables/t7_threshold_proxy_comparison.csv`: strict/joint IV threshold
+  proxy comparison.
+- `outputs/tables/t8_ch_classical_threshold_comparison.csv`: classical
+  Caner-Hansen sweep and slope-difference results.
+- `outputs/tables/t9_ch_classical_bootstrap.csv`: formal classical CH SupWald
+  bootstrap p-values.
 
-- **R:** 4.4.3 (fixest, plm, AER, data.table, ggplot2)
-- **Python:** 3.10 (pandas, numpy, matplotlib, statsmodels, linearmodels)
-- **Pandoc:** docx + markdown үүсгэх
-- **Node.js:** docx@9.6.1 (ахиу форматлал)
+## Арга зүйн гол анхаарах зүйл
 
-## Давтах заавар
-
-```bash
-# 1) R багцуудыг суулгах
-Rscript R/00_main.R
-
-# 2) Өгөгдөл цэвэрлэх, нэгтгэх
-Rscript R/01_import.R
-Rscript R/02_harmonize.R
-Rscript R/03_pseudopanel.R
-
-# 3) Үнэлгээг явуулах
-Rscript R/04_ols_iv.R
-Rscript R/05_ivtr_caner_hansen.R
-
-# 4) Зураг, хүснэгт гаргах
-Rscript R/08_figures.R
-Rscript R/09_tables.R
-python python/regenerate_figures_v2.py
-```
-
-## Ашигласан гол эх сурвалж
-
-- Caner, M., & Hansen, B. E. (2004). *Instrumental Variable Estimation of a
-  Threshold Model*. Econometric Theory, 20(5).
-- Mincer, J. (1974). *Schooling, Experience, and Earnings*. NBER.
-- Card, D. (1993). *Using Geographic Variation in College Proximity to
-  Estimate the Return to Schooling*. NBER WP 4483.
-- Duflo, E. (2001). *Schooling and Labor Market Consequences of School
-  Construction in Indonesia*. American Economic Review, 91(4).
-- Psacharopoulos, G., & Patrinos, H. A. (2018). *Returns to investment in
-  education: a decennial review of the global literature*. Education
-  Economics, 26(5).
-
-## Удирдагч багш
-
-С.Өнөр — [unur@thinkers.mn](mailto:unur@thinkers.mn)
-
-## Зохиогчийн эрх
-
-Энэ хэвлэл нь СЭЗИС-ийн Эконометрикийн VIII Олимпиадын уралдаанд оруулж буй
-оюутны судалгааны ажил юм. ӨНЭЗС-ийн микро өгөгдөл нь ҮСХ-ны өмч.
+Caner and Hansen (2004) нь endogenous regressor-тэй боловч exogenous threshold
+variable-тай model-ийг авч үздэг. Тиймээс `educ_years` нь endogenous regressor
+хэвээр, харин threshold variable нь predetermined/exogenous байх ёстой.
+Энэ repo-д headline threshold нь хувь хүний өөрийн боловсрол биш, харин төрсөн
+аймгийн school-age үеийн ЕБС-ийн supply/quality proxy байна.

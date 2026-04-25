@@ -1,7 +1,39 @@
-gamma,ssr
-10,237465.935863036
-11,238047.309081431
-12,234283.945948885
-13,232489.122752929
-14,237570.267038416
-15,239453.17292181
+gamma,ssr,n_low_q,n_high_q,threshold_var,threshold_label,threshold_unit,LR
+38.058643,98998.0287057364,793,4377,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",1023.603616552
+38.322919,88494.1676594827,876,4294,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",366.451624594542
+38.455627,84117.3846186716,953,4217,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",92.6273916796837
+38.619843,86190.546529224,1209,3961,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",222.330409757568
+38.69096,85235.2768709292,1222,3948,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",162.565971134417
+38.76718,84483.7524652531,1319,3851,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",115.548426060282
+38.877387,87049.6750763496,1430,3740,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",276.079981805884
+39.048355,85573.7193301895,1516,3654,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",183.739912343896
+39.206012,85705.1379502271,1615,3555,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",191.96184212359
+39.374972,83659.0018195752,1677,3493,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",63.9496351691218
+39.415009,83438.8178047324,1890,3280,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",50.1742850084554
+39.566653,85575.1092620802,1988,3182,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",183.826870511622
+39.707373,89761.9464239135,2069,3101,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",445.767538689215
+39.801343,86997.7598207534,2171,2999,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",272.832012942078
+39.850871,88158.4470062753,2244,2926,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",345.447967460747
+40.068191,84650.0779503841,2360,2810,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",125.954230495988
+40.293028,83057.9193066403,2424,2746,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",26.3441709530026
+40.297873,82847.7005339678,2447,2723,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",13.1922752262542
+40.593486,84285.9689980012,2635,2535,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",103.174519083745
+40.864906,83092.5698370817,2724,2446,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",28.51200857021
+41.099895,82636.8363388403,2820,2350,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",0
+41.219795,84587.4400828028,2973,2197,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",122.035423947444
+41.261687,82763.1582118545,3015,2155,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",7.90306251325581
+41.593318,83524.9132968883,3088,2082,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",55.5606685411068
+41.705206,83317.7143849725,3190,1980,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",42.5977040562131
+41.913633,83817.8902542343,3279,1891,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",73.8901561713969
+41.989971,83061.4124060263,3374,1796,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",26.5627093751617
+42.038187,83215.519027623,3493,1677,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",36.2040662924103
+42.268164,83811.7491064364,3568,1602,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",73.5059481653568
+42.503271,82899.2195920827,3657,1513,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",16.4154568272796
+42.701671,82984.6198793491,3767,1403,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",21.7583463270297
+42.9963,83169.4900580249,3837,1333,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",33.3243605417431
+43.125586,82920.6086749451,3924,1246,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",17.7536198463136
+43.398676,83302.5531834024,4025,1145,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",41.6491753420172
+43.71244,82724.5264068232,4116,1054,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",5.48614481818379
+43.893699,83300.7952463213,4257,913,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",41.5391937029338
+44.123878,82943.0822266036,4306,864,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",19.1596303765103
+44.409094,83620.7742037544,4395,775,ebs_teachers_per_1000_school_age,"EBS teachers per 1,000 students during school ages 6-17","teachers per 1,000 students",61.558004722586

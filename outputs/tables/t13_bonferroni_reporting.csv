@@ -1,0 +1,7 @@
+proxy,bootstrap_p,alpha_6,alpha_3_families,pass_bonf_6,pass_bonf_3
+"D1: EBS school-age teachers per 1,000 students",0.001,0.00833333333333333,0.0166666666666667,TRUE,TRUE
+D3: EBS school-age student-teacher ratio,0.001,0.00833333333333333,0.0166666666666667,TRUE,TRUE
+D5: EBS age-12 student-teacher ratio,0.001,0.00833333333333333,0.0166666666666667,TRUE,TRUE
+C3: 2008 reform cohort dummy (effectively binary; born >= 1991),0.001,0.00833333333333333,0.0166666666666667,TRUE,TRUE
+G1: log distance to UB,0.001,0.00833333333333333,0.0166666666666667,TRUE,TRUE
+B1: birth-aimag prior-cohort mean education,0.029,0.00833333333333333,0.0166666666666667,FALSE,FALSE

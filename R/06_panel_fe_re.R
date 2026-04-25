@@ -109,12 +109,13 @@ cat(strrep("=", 60), "\n")
 
 # Individual-level two-way FE (on raw data, not pseudo-panel)
 ind_dt <- fread(file.path(BASE, "clean", "analysis_sample.csv"))
+ind_dt[, marital_f := factor(marital)]
 ind_dt[, cohort_aimag := paste(
   cut(birth_year, breaks = seq(1960, 2005, by = 5), right = FALSE),
   newaimag, sep = "_")]
 
 twfe <- feols(log_wage ~ educ_years + experience + experience_sq +
-                sex + marital + urban + hhsize |
+                sex + i(marital_f) + urban + hhsize |
                 cohort_aimag + wave,
               data = ind_dt, weights = ~hhweight,
               cluster = ~newaimag)

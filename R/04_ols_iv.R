@@ -11,6 +11,12 @@ BASE <- "c:/tsogoo/Hicheel/erdem shinjilgeenii hural/ecnometric/data"
 dt <- fread(file.path(BASE, "clean", "analysis_sample.csv"))
 cat(sprintf("Loaded: %s rows\n", nrow(dt)))
 
+# marital is a 6-category variable (1 = ам бүлтэй, 2 = гэрлэсэн, 3 = салсан,
+# 4 = бэлэвсэн, 5 = ганц бие, 6 = хамтран амьдардаг) — treat as factor, not linear
+dt[, marital_f := factor(marital)]
+MN_AIMAG_CODES <- c(11, 21, 22, 23, 41, 42, 43, 44, 45, 46, 48,
+                    61, 62, 63, 64, 65, 67, 81, 82, 83, 84, 85)
+
 # =============================================================================
 # 1. OLS MINCER BASELINE — ALL WAVES
 # =============================================================================
@@ -23,13 +29,14 @@ ols_simple <- feols(log_wage ~ educ_years + experience + experience_sq,
                     data = dt, weights = ~hhweight)
 
 # (b) With controls: + sex + marital + urban + hhsize
+# NOTE: marital is factor (6 categories); sex and urban are binary, so numeric is OK
 ols_controls <- feols(log_wage ~ educ_years + experience + experience_sq +
-                        sex + marital + urban + hhsize,
+                        sex + i(marital_f) + urban + hhsize,
                       data = dt, weights = ~hhweight)
 
 # (c) With aimag + wave FE
 ols_fe <- feols(log_wage ~ educ_years + experience + experience_sq +
-                  sex + marital + urban + hhsize |
+                  sex + i(marital_f) + urban + hhsize |
                   newaimag + wave,
                 data = dt, weights = ~hhweight,
                 cluster = ~newaimag)
@@ -61,7 +68,7 @@ cat(strrep("=", 60), "\n")
 
 for (w in sort(unique(dt$wave))) {
   m <- feols(log_wage ~ educ_years + experience + experience_sq +
-               sex + marital + urban + hhsize | newaimag,
+               sex + i(marital_f) + urban + hhsize | newaimag,
              data = dt[wave == w], weights = ~hhweight,
              cluster = ~newaimag)
   cat(sprintf("  Wave %d: β_educ = %.4f (SE %.4f), N = %d\n",
@@ -75,8 +82,11 @@ cat("\n", strrep("=", 60), "\n")
 cat("  3. 2SLS IV (Main waves: 2020+2021+2024)\n")
 cat(strrep("=", 60), "\n")
 
-main <- dt[wave >= 2020 & !is.na(birth_aimag)]
+main <- dt[wave >= 2020 & birth_aimag %in% MN_AIMAG_CODES]
 cat(sprintf("Main IV sample: %s individuals\n", nrow(main)))
+cat(sprintf("Excluded nonstandard/foreign birth_aimag observations: %s\n",
+            nrow(dt[wave >= 2020 & !is.na(birth_aimag) &
+                      !(birth_aimag %in% MN_AIMAG_CODES)])))
 
 # IV = birth_aimag (categorical — each aimag code is a separate instrument)
 # This is the reduced form: being born in aimag X affects years of schooling
@@ -84,7 +94,7 @@ cat(sprintf("Main IV sample: %s individuals\n", nrow(main)))
 
 # (a) First stage check
 first_stage <- feols(educ_years ~ i(birth_aimag) + experience + experience_sq +
-                       sex + marital + urban + hhsize | wave,
+                       sex + i(marital_f) + urban + hhsize | wave,
                      data = main, weights = ~hhweight,
                      cluster = ~newaimag)
 cat("\n=== First Stage: educ_years ~ birth_aimag dummies ===\n")
@@ -93,7 +103,7 @@ cat(sprintf("  N  = %d\n", nobs(first_stage)))
 
 # (b) 2SLS: instrument educ_years with birth_aimag
 iv_birth <- feols(log_wage ~ experience + experience_sq +
-                    sex + marital + urban + hhsize |
+                    sex + i(marital_f) + urban + hhsize |
                     wave |
                     educ_years ~ i(birth_aimag),
                   data = main, weights = ~hhweight,
@@ -103,19 +113,30 @@ cat("\n=== 2SLS IV Results ===\n")
 cat(sprintf("  β_educ (IV) = %.4f (SE %.4f)\n",
             coef(iv_birth)["fit_educ_years"], se(iv_birth)["fit_educ_years"]))
 
-# First-stage F statistic
+# First-stage diagnostic. With many dummy instruments and clustered standard
+# errors, this is safest to report as a first-stage F/Wald diagnostic rather than
+# as a literal Cragg-Donald or Kleibergen-Paap statistic.
 fs <- fitstat(iv_birth, "ivf")
 fs_val <- fs$ivf1$stat
-cat(sprintf("  First-stage F = %.2f\n", fs_val))
-if (fs_val < 10) {
-  cat("  !!! WEAK INSTRUMENT WARNING: F < 10 !!!\n")
+# Number of excluded instruments = aimags - 1
+n_iv <- length(unique(main$birth_aimag)) - 1
+cat(sprintf("  First-stage F/Wald = %.2f  (excluded instruments: %d)\n", fs_val, n_iv))
+# Stock-Yogo values are rough orientation only here because the model uses
+# categorical instruments and clustered inference.
+if (fs_val < 6.46) {
+  cat("  SEVERE WEAK IV: bias exceeds 25% of OLS (Stock-Yogo).\n")
+} else if (fs_val < 11.46) {
+  cat("  WEAK INSTRUMENT: bias in [15%, 25%] range (Stock-Yogo).\n")
+  cat("  → Use Anderson-Rubin weak-IV-robust CI; point estimate may be biased.\n")
+} else if (fs_val < 20.53) {
+  cat("  MODERATE: bias in [10%, 15%] range (Stock-Yogo).\n")
 } else {
-  cat("  STRONG INSTRUMENT: F > 10\n")
+  cat("  STRONG: bias < 10% (Stock-Yogo 2005).\n")
 }
 
 # Compare OLS vs IV
 ols_main <- feols(log_wage ~ educ_years + experience + experience_sq +
-                    sex + marital + urban + hhsize | wave,
+                    sex + i(marital_f) + urban + hhsize | wave,
                   data = main, weights = ~hhweight,
                   cluster = ~newaimag)
 
@@ -132,6 +153,21 @@ cat(sprintf("  IV  β_educ = %.4f (%.1f%% return)\n",
             coef(iv_birth)["fit_educ_years"],
             100 * (exp(coef(iv_birth)["fit_educ_years"]) - 1)))
 
+# Robustness: absorb current aimag fixed effects so the birth-aimag IV is
+# identified mainly from movers across birth/current aimag.
+iv_birth_current_fe <- feols(log_wage ~ experience + experience_sq +
+                               sex + i(marital_f) + urban + hhsize |
+                               wave + newaimag |
+                               educ_years ~ i(birth_aimag),
+                             data = main, weights = ~hhweight,
+                             cluster = ~newaimag)
+cat("\n=== IV Robustness: birth_aimag with current aimag FE ===\n")
+cat(sprintf("  β_educ = %.4f (SE %.4f), First-stage F/Wald = %.2f, N = %d\n",
+            coef(iv_birth_current_fe)["fit_educ_years"],
+            se(iv_birth_current_fe)["fit_educ_years"],
+            fitstat(iv_birth_current_fe, "ivf")$ivf1$stat,
+            nobs(iv_birth_current_fe)))
+
 # =============================================================================
 # 4. IV WITH CURRENT AIMAG — ALL WAVES (robustness)
 # =============================================================================
@@ -140,7 +176,7 @@ cat("  4. 2SLS IV — Current aimag (all 5 waves, robustness)\n")
 cat(strrep("=", 60), "\n")
 
 iv_current <- feols(log_wage ~ experience + experience_sq +
-                      sex + marital + urban + hhsize |
+                      sex + i(marital_f) + urban + hhsize |
                       wave |
                       educ_years ~ i(newaimag),
                     data = dt, weights = ~hhweight,

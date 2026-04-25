@@ -1,0 +1,29 @@
+item,value
+threshold_var,ebs_teachers_per_1000_school_age
+threshold_label,"EBS teachers per 1,000 students during school ages 6-17"
+threshold_unit,"teachers per 1,000 students"
+min_school_age_years,3
+gamma_star,41.099895
+gamma_ci_low,41.099895
+gamma_ci_high,43.71244
+regime_1_label,Low teacher-supply birth environment (q <= 41.10)
+regime_2_label,High teacher-supply birth environment (q > 41.10)
+beta_1,0.0587529682841472
+se_1,0.0155083031020847
+return_1_pct,6.05132279763685
+beta_2,0.0506883045860929
+se_2,0.0393065124407268
+return_2_pct,5.19949401768127
+diff_beta,-0.00806466369805436
+diff_se,0.0488074406000757
+diff_t,-0.165234308517334
+diff_p,0.868759562104113
+fs_regime_1_separate,11.5504291172078
+fs_regime_2_separate,19.5948092429142
+sup_wald,657.524122463242
+bootstrap_p,0.987
+bootstrap_B,1000
+n_regime_1,2820
+n_regime_2,2350
+n_total,5170
+limitation,Threshold variable is predetermined EBS teacher supply; sample is younger cohorts with >=3 observed school-age EBS years.
